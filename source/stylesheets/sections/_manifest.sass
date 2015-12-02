@@ -1,0 +1,59 @@
+#manifest
+  position: relative
+  top: -50px
+
+.manifest
+  background-color: #E9DFD3
+  overflow: auto
+  text-align: center
+  .wrapper
+    background-color: white
+    padding: 48px 20px
+  .separator
+    fill: #FF2861
+  &-logo
+    position: absolute
+    top: 0
+    left: 50%
+    margin: -27px
+  &-sections
+    padding: 75px 0
+  &-section
+    max-width: 620px
+    padding: 0
+    margin: 0 auto 78px
+    &:last-child
+      margin-bottom: 0
+    &-icon
+      display: block
+      margin: auto
+    &-title
+      font-family: $serif
+      font-weight: $font-weight-bold
+      font-size: 30px
+      color: #000000
+      line-height: 36px
+      margin: 20px 0 12px
+    &-text
+      font-weight: $font-weight-light
+      font-size: 18px
+      line-height: 22px
+      margin: 0
+
+@media (max-width: 660px)
+  .manifest
+    padding-left: 0
+    padding-right: 0
+    padding-bottom: 0
+    background-color: white
+    &-logo
+      position: relative
+      top: initial
+      left: initial
+      margin: auto
+      width: 27px
+      height: 27px
+    .section-title
+      font-size: 40px
+    .wrapper
+      padding: 0 20px
