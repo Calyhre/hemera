@@ -5,7 +5,7 @@ gem 'middleman-livereload', '~> 3.4.3'
 gem 'middleman-inliner'
 gem 'middleman-dotenv'
 
-gem 'middleman-s3_sync'
+gem 'middleman-gh-pages'
 
 gem 'slim'
 gem 'sass'
