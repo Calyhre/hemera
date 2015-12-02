@@ -1,4 +1,5 @@
-#= require vendor/smooth-scroll
+#= require_tree ./vendor
+#= require_tree ./components
 #= require_tree .
 
 smoothScroll.init()

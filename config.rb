@@ -1,12 +1,15 @@
-I18n.default_locale = :fr
+require 'slim'
+Slim::Engine.disable_option_validator!
+
+activate :dotenv
+activate :i18n, mount_at_root: false, langs: %i(en fr), path: '/:locale/'
+redirect 'index.html', to: 'en/index.html'
+# I18n.default_locale = :en
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 set :fonts_dir, 'fonts'
-
-activate :dotenv
-activate :i18n
 
 helpers do
   def svg_tag(svg, opts = {})
