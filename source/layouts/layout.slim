@@ -6,16 +6,16 @@ html lang='fr'
     title = t 'meta.title'
 
     meta name='description' content=t('meta.description')
-    meta name="keywords" content=t('meta.keywords')
+    / meta name="keywords" content=t('meta.keywords')
     meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
 
     meta property="og:title" content=t('meta.og.title')
     meta property="og:description" content=t('meta.og.description')
     meta property="og:url" content=t('meta.og.url')
-    meta property="og:image" content=asset_url("images/og-image.jpg")
+    meta property="og:image" content=asset_url("images/og-image.png")
 
     link rel="canonical" href=t('meta.url')
-    link rel="shortcut icon" href=asset_url("images/favicon.png")
+    link rel="shortcut icon" href=asset_url("images/hemera-favicon.png")
 
     = stylesheet_link_tag 'app'
 
