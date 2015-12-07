@@ -16,7 +16,9 @@ header.header
       = icon_tag 'facebook', class: 'header-icon'
     = link_to '//twitter.com/Hemera_Bdx', class: 'header-link header-desktop', target: '_blank' do
       = icon_tag 'twitter', class: 'header-icon'
-    a.header-link.header-link--toggle data-toggle-menu="header-menu" = icon_tag 'more', class: 'header-icon'
+    a.header-link.header-link--toggle data-toggle-menu="header-menu"
+      = icon_tag 'more', class: 'header-icon header-link--toggle-icon'
+      = icon_tag 'close', class: 'header-icon header-link--toggle-icon-shown'
     = mail_to 'bip@boup.com', t('header.contact_us'), class: 'header-link header-link--text', target: '_blank'
 
 header.header.header--fixed
@@ -38,5 +40,7 @@ header.header.header--fixed
       = icon_tag 'facebook', class: 'header-icon'
     = link_to '//twitter.com/Hemera_Bdx', class: 'header-link header-desktop', target: '_blank' do
       = icon_tag 'twitter', class: 'header-icon'
-    a.header-link.header-link--toggle data-toggle-menu="header-menu" = icon_tag 'more', class: 'header-icon'
+    a.header-link.header-link--toggle data-toggle-menu="header-menu"
+      = icon_tag 'more', class: 'header-icon header-link--toggle-icon'
+      = icon_tag 'close', class: 'header-icon header-link--toggle-icon-shown'
     = mail_to 'bip@boup.com', t('header.contact_us'), class: 'header-link header-link--text', target: '_blank'
