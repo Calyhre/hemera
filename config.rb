@@ -45,7 +45,7 @@ configure :build do
   Slim::Engine.options[:pretty] = false
 
   # Use relative URLs
-  activate :relative_assets
+  # activate :relative_assets
 
   activate :asset_host
   set :asset_host, '//hemera.calyh.re'
