@@ -81,8 +81,6 @@
       +transition(all .2s)
       opacity: 0
       visibility: hidden
-      .icon
-        fill: white
     &-link
       display: inline-block
       vertical-align: middle
@@ -93,6 +91,12 @@
         background-color: rgba(white, .31)
       &--icon
         +transform(rotate(-60deg))
+        .icon
+          fill: rgba(white, .8)
+          +transition(fill .2s)
+        &:hover
+          .icon
+            fill: rgba(white, 1)
 
 
 .people-title-fake
