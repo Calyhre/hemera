@@ -1,27 +1,42 @@
 header.header
   nav
     = link_to '#top', class: 'header-link', data: { scroll: true } do
-      = svg_tag 'logo-text', width: 140, height: 41, class: 'header-logo'
+      = svg_tag 'logo-text', width: 140, height: 41, class: 'header-logo header-logo--full'
+      = svg_tag 'logo-stroke', width: 41, height: 41, class: 'header-logo header-logo--stroke'
+  
+  .header-menu data-menu="header-menu"
+    nav
+      = link_to '#', class: 'header-link' do
+        = icon_tag 'facebook', class: 'header-icon'
+      = link_to '//twitter.com/Hemera_Bdx', class: 'header-link', target: '_blank' do
+        = icon_tag 'twitter', class: 'header-icon'
   
   nav
-    = link_to '#', class: 'header-link' do
+    = link_to '#', class: 'header-link header-desktop', target: '_blank' do
       = icon_tag 'facebook', class: 'header-icon'
-    = link_to '//twitter.com/Hemera_Bdx', class: 'header-link', target: '_blank' do
+    = link_to '//twitter.com/Hemera_Bdx', class: 'header-link header-desktop', target: '_blank' do
       = icon_tag 'twitter', class: 'header-icon'
-    / = link_to '#', class: 'header-link' do
-    /   = icon_tag 'more', class: 'header-icon'
+    a.header-link.header-link--toggle data-toggle-menu="header-menu" = icon_tag 'more', class: 'header-icon'
+    = mail_to 'bip@boup.com', t('header.contact_us'), class: 'header-link header-link--text', target: '_blank'
 
 header.header.header--fixed
   nav
     = link_to '#top', class: 'header-link', data: { scroll: true } do
-      = svg_tag 'logo-text', width: 140, height: 41, class: 'header-logo'
+      = svg_tag 'logo-text', width: 140, height: 41, class: 'header-logo header-logo--full'
+      = svg_tag 'logo-stroke', width: 41, height: 41, class: 'header-logo header-logo--stroke'
   
+  .header-menu data-menu="header-menu"
+    nav
+      = link_to '#', class: 'header-link', target: '_blank' do
+        = icon_tag 'facebook', class: 'header-icon'
+      = link_to '//twitter.com/Hemera_Bdx', class: 'header-link', target: '_blank' do
+        = icon_tag 'twitter', class: 'header-icon'
   = link_to t('apply_today'), '#', class: 'cta header-cta'
   
   nav
-    = link_to '#', class: 'header-link' do
+    = link_to '#', class: 'header-link header-desktop', target: '_blank' do
       = icon_tag 'facebook', class: 'header-icon'
-    = link_to '//twitter.com/Hemera_Bdx', class: 'header-link', target: '_blank' do
+    = link_to '//twitter.com/Hemera_Bdx', class: 'header-link header-desktop', target: '_blank' do
       = icon_tag 'twitter', class: 'header-icon'
-    / = link_to '#', class: 'header-link' do
-    /   = icon_tag 'more', class: 'header-icon'
+    a.header-link.header-link--toggle data-toggle-menu="header-menu" = icon_tag 'more', class: 'header-icon'
+    = mail_to 'bip@boup.com', t('header.contact_us'), class: 'header-link header-link--text', target: '_blank'

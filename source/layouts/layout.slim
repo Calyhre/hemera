@@ -3,18 +3,18 @@ html lang='fr'
   head
     meta http-equiv='content-type' content='text/html; charset=utf-8'
 
-    title Hemera
+    title = t 'meta.title'
 
-    meta name='description' content="[TODO]"
-    meta name="keywords" content="[TODO]"
+    meta name='description' content=t('meta.description')
+    meta name="keywords" content=t('meta.keywords')
     meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
 
-    meta property="og:title" content="[TODO]"
-    meta property="og:url" content="[TODO]"
+    meta property="og:title" content=t('meta.og.title')
+    meta property="og:description" content=t('meta.og.description')
+    meta property="og:url" content=t('meta.og.url')
     meta property="og:image" content=asset_url("images/og-image.jpg")
-    meta property="og:description" content="[TODO]"
 
-    link rel="canonical" href="[TODO]"
+    link rel="canonical" href=t('meta.url')
     link rel="shortcut icon" href=asset_url("images/favicon.png")
 
     = stylesheet_link_tag 'app'

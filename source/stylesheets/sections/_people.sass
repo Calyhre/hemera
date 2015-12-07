@@ -29,6 +29,8 @@
         margin: 0 0 20px
       &-separator
         fill: $green
+        &.people-title-fake
+          margin: 0
 
     &-outro
       &-title
@@ -43,8 +45,15 @@
   &-mentor
     text-align: center
     &-image
+      position: relative
+      width: 235px
+      height: 235px
       display: block
       margin: 0 auto 14px
+      &:hover
+        .people-mentor-links
+          opacity: 1
+          visibility: visible
     &-name
       font-weight: $font-weight-bold
       text-transform: uppercase
@@ -56,6 +65,35 @@
       font-size: 15px
       line-height: 18px
       margin: 0
+    &-links
+      position: absolute
+      +display-flex
+      +align-items(center)
+      +justify-content(center)
+      top: 0
+      left: 0
+      width: 100%
+      height: 100%
+      border-radius: 50%
+      background-color: rgba(#000, .57)
+      +transform(rotate(60deg))
+      +transform-origin(center)
+      +transition(all .2s)
+      opacity: 0
+      visibility: hidden
+      .icon
+        fill: white
+    &-link
+      display: inline-block
+      vertical-align: middle
+      margin: 10px
+      &--separator
+        height: 118px
+        width: 2px
+        background-color: rgba(white, .31)
+      &--icon
+        +transform(rotate(-60deg))
+
 
 .people-title-fake
   margin: auto
@@ -87,8 +125,6 @@
         padding: 0
         margin: 0 0 60px
     &-mentors
-      &-intro
-        max-width: 220px
       &-outro
         margin-top: 30px
         text-align: center

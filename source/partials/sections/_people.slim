@@ -13,7 +13,14 @@ section.section.people
       
       - t('people.mentors').each do |picture, mentor|
         .people-grid-item.people-mentor
-          = image_tag "mentors/#{picture}.jpg", class: 'people-mentor-image', width: 235, height: 235
+          .people-mentor-image
+            = image_tag "mentors/#{picture}.jpg", class: 'people-mentor-image', width: 235, height: 235
+            .people-mentor-links
+              = link_to mentor[:twitter], class: 'people-mentor-link people-mentor-link--icon',target: '_blank' do
+                = icon_tag 'twitter', width: 42, height: 42
+              .people-mentor-link.people-mentor-link--separator
+              = link_to mentor[:linkedin], class: 'people-mentor-link people-mentor-link--icon', target: '_blank' do
+                = icon_tag 'linkedin', width: 48, height: 48
           h4.people-mentor-name = mentor[:name]
           p.people-mentor-job = mentor[:job]
           

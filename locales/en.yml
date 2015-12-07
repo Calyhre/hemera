@@ -1,26 +1,45 @@
 ---
 en:
-  apply_today: APPLY TODAY
+  meta:
+    title: Héméra - Accelerator made for and by entrepreneurs
+    description: TODO
+    keywords: TODO
+    og:
+      title: Héméra - Accelerator made for and by entrepreneurs
+      description: TODO
+      url: TODO
+
+  apply_today: Apply Now
+
+  header:
+    contact_us: Contact us
 
   hero:
     title: Héméra provides
-    subtitle: Mentoring, Network, Education and Capital to help entrepreneurs change the world.
+    subtitle: Héméra provides Mentoring, Network, Education and Capital to help entrepreneurs change the world.
     scroll: Scroll down to learn more
 
   manifest:
     title: Manifest
     sections:
-      learn-and-fail:
-        title: Be ready to learn and fail.
+      by-entrepreneurs-for-entrepreneurs:
+        title: By Entrepreneurs for Entrepreneurs
         text: |
           See Hemera as a club of carefully selected Entrepreneurs who deserve
           the care and the attention that we put into their venture.
+      learn-and-fail:
+        title: Be ready to learn and fail
+        text: |
+          We all make mistakes, they are inherent to taking risk and breaking
+          things. Someone who doesn’t fail doesn’t try. We will make sure you
+          have some guidance to help you take the right decisions. But we will
+          never decide for you.
       show-purpose:
         title: Show a purpose
         text: |
           Don’t just do the job, or you’re not our kind of person. We have a
-          great network of contacts throughout the world to introduce  you.
-          These guys look for purpose and ambition, not just average execution.
+          great network of contacts throughout the world to introduce you. These
+          guys look for purpose and ambition, not just average execution.
       long-term-commitment:
         title: It’s about a long term Commitment
         text: |
@@ -68,18 +87,30 @@ en:
       benoit-droulin:
         name: Benoit Droulin
         job: Board Member & Mentor
+        twitter: //twitter.com/bdroulin
+        linkedin: //fr.linkedin.com/in/bdroulin
       david-ducourneau:
         name: David Ducourneau
         job: Board Member & Mentor
+        twitter: //twitter.com/dducourneau
+        linkedin: //fr.linkedin.com/in/dducourneau/fr
       adrien-dulong:
         name: Adrien Dulong
         job: Managing Director & Mentor
+        twitter: //twitter.com/adulong
+        linkedin: //fr.linkedin.com/in/adrien-dulong-a92aa1b/fr
       gregory-lefort:
         name: Gregory Lefort
         job: Board Member & Mentor
+        twitter: //twitter.com/greglefort
+        linkedin: //fr.linkedin.com/in/gregorylefort/fr
       julien-parrou:
         name: Julien Parrou
         job: Board Member & Mentor
+        twitter: //twitter.com/JulienParrou
+        linkedin: //fr.linkedin.com/in/julien-parrou-348171b/fr
       brice-thebaud:
         name: Brice Thebaud
-        job: Managing Director & Mentor
+        job: Board Member & Mentor
+        twitter:
+        linkedin: //fr.linkedin.com/in/brice-thebaud-963517/fr
