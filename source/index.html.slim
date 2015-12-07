@@ -1,13 +1,10 @@
 doctype 5
-html lang=I18n.locale
+html
   head
-    meta http-equiv='content-type' content='text/html; charset=utf-8'
-
-    title = t 'meta.title'
-
-    meta name='description' content=t('meta.description')
-    / meta name="keywords" content=t('meta.keywords')
-    meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0"
+    link rel="canonical" href="/en/"
+    meta http-equiv='refresh' content="0; url=/en/"
+    meta name="robots" content="noindex,follow"
+    meta http-equiv="cache-control" content="no-cache"
 
     meta property="og:type" content="website"
     meta property="og:title" content=t('meta.og.title')
@@ -21,16 +18,4 @@ html lang=I18n.locale
     meta name="twitter:title" content=t('meta.title')
     meta name="twitter:description" content=t('meta.description')
     meta name="twitter:image" content=asset_url("images/og-image.png")
-
-    link rel="canonical" href=t('meta.url')
-    link rel="shortcut icon" href=asset_url("images/hemera-favicon.png")
-
-    = stylesheet_link_tag 'app'
-
-  body#top
-    = inline_svg 'images.svg'
-    
-    .content-wrapper
-      = yield
-
-    = javascript_include_tag 'app'
+  body
