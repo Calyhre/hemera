@@ -48,7 +48,7 @@ configure :build do
   # activate :relative_assets
 
   activate :asset_host
-  set :asset_host, 'https://hemera.calyh.re'
+  set :asset_host, 'http://hemera.camp'
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
