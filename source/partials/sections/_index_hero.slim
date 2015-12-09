@@ -5,7 +5,7 @@
     = svg_tag 'separator', class: 'hero-heading-separator', width: 71, height: 16
     
     h2.hero-heading-subtitle = t 'hero.subtitle'
-    = link_to t('apply_today'), '#', class: 'cta cta--big hero-heading-cta'
+    = link_to t('apply_now'), t('apply_now_url'), class: 'cta cta--big hero-heading-cta', target: '_blank'
     
   = link_to '#manifest', data: { scroll: true }, class: 'hero-scroll' do
     h6.hero-scroll-title = t 'hero.scroll'
