@@ -1,0 +1,43 @@
+.modal.modal--contact data-modal="contact"
+  .modal-backdrop data-toggle-modal="contact"
+  .modal-content
+    .modal-close data-toggle-modal="contact"
+      = svg_tag 'icon-close', width: 20, height: 20
+    
+    .modal-wrapper      
+      form.form.modal-form data-form="contact"
+        .modal-heading
+          h5.modal-heading-suptitle = t 'modal.contact.suptitle'
+          h2.modal-heading-title = t 'modal.contact.title'
+
+        .form-row
+          .form-input
+            label for="contact_email" = t 'modal.contact.labels.email'
+            input#contact_email type="email" name="email" required=true autofocus=true
+          .form-input--separator
+          .form-input
+            label for="contact_phone" = t 'modal.contact.labels.phone'
+            input#contact_phone type="text" name="phone"
+        
+        .form-row
+          .form-input.form-input--full
+            label for="contact_topic" = t 'modal.contact.labels.topic'
+            .input--select
+              select#contact_topic name="topic"
+                - t('modal.contact.topics').each do |topic|
+                  option = topic
+        
+        .form-row
+          .form-input.form-input--full
+            label for="contact_message" = t 'modal.contact.labels.message'
+            textarea#contact_message name="message" required=true rows=10
+        
+        .form-row
+          .form-input.form-input--full.form-submit
+            input.cta.cta--big type="submit" value=t('modal.contact.send')
+      
+      .form-result
+        = svg_tag 'icon-check', width: 150, height: 150
+        .modal-heading
+          h5.modal-heading-suptitle = t 'modal.contact.sent_suptitle'
+          h2.modal-heading-title = t 'modal.contact.sent_title'

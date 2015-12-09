@@ -21,6 +21,21 @@ en:
     subtitle: Mentoring, Network, Education and Capital to help entrepreneurs change the world.
     scroll: Scroll down to learn more
 
+  modal:
+    contact:
+      suptitle: Contact us
+      title: Contact-us
+      send: Send
+      sent_suptitle: Message sent
+      sent_title: Thanks, we'll get in touch soon.
+      labels:
+        email: Email
+        phone: Phone number (optional)
+        topic: Topic
+        message: Message
+      topics:
+        - Press Inquiry
+
   manifest:
     title: Manifest
     sections:

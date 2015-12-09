@@ -19,7 +19,7 @@ header.header
     a.header-link.header-link--toggle data-toggle-menu="header-menu"
       = icon_tag 'more', class: 'header-icon header-link--toggle-icon'
       = icon_tag 'close', class: 'header-icon header-link--toggle-icon-shown'
-    = mail_to 'bip@boup.com', t('header.contact_us'), class: 'header-link header-link--text', target: '_blank'
+    = link_to t('header.contact_us'), '#', class: 'header-link header-link--text', data: { 'toggle-modal' => 'contact' }
 
 header.header.header--fixed
   nav
@@ -43,4 +43,4 @@ header.header.header--fixed
     a.header-link.header-link--toggle data-toggle-menu="header-menu"
       = icon_tag 'more', class: 'header-icon header-link--toggle-icon'
       = icon_tag 'close', class: 'header-icon header-link--toggle-icon-shown'
-    = mail_to 'bip@boup.com', t('header.contact_us'), class: 'header-link header-link--text', target: '_blank'
+    = link_to t('header.contact_us'), '#', class: 'header-link header-link--text', data: { 'toggle-modal' => 'contact' }

@@ -1,0 +1,71 @@
+.form
+  &.done
+    display: none
+    & + .form-result
+      display: block
+  &-row
+    +display-flex
+    +flex-direction(row)
+    margin-bottom: 23px
+    &:last-child
+      margin-bottom: 0
+  &-input
+    +flex(1)
+    &--full
+      width: 100%
+    &--separator
+      width: 20px
+    label, input, textarea, select
+      width: 100%
+      display: block
+    label
+      opacity: 0.5
+      font-weight: $font-weight-medium
+      font-size: 12px
+      margin-bottom: 4px
+      -webkit-appearance: none
+    input, textarea, select
+      border: 1px solid #D2D2D2
+      border-radius: 3px
+      font-size: 14px
+      padding: 10px
+      -webkit-appearance: none
+      resize: vertical
+      &[type="submit"]
+        border: none
+        cursor: pointer
+        &[disabled]
+          cursor: default
+          opacity: .4
+      &:focus, &:active
+        border-color: $red
+        outline: none
+
+    .input--select
+      position: relative
+      &:after
+        content: ''
+        position: absolute
+        border: 2px solid black
+        border-width: 0 2px 2px 0
+        +transform(rotate(45deg))
+        width: 8px
+        height: 8px
+        right: 16px
+        top: 50%
+        margin-top: -6px
+        pointer-events: none
+
+  &-result
+    display: none
+    text-align: center
+    svg
+      margin-bottom: 30px
+
+@media (max-width: 660px)
+  .form
+    &-row
+      +flex-direction(column)
+      margin-bottom: 0
+    &-input
+      margin-bottom: 23px

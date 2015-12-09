@@ -3,7 +3,7 @@ footer.footer
   nav.footer-links
     = link_to '#', target: '_blank', class: 'footer-link' do
       = icon_tag 'facebook'
-    = mail_to 'bip@boup.com', t('header.contact_us'), target: '_blank', class: 'footer-link footer-link--text'
+    = link_to t('header.contact_us'), '#', class: 'footer-link footer-link--text', data: { 'toggle-modal' => 'contact' }
     = link_to '//twitter.com/Hemera_Bdx', target: '_blank', class: 'footer-link' do
       = icon_tag 'twitter'
   p.footer-copyright © Héméra
