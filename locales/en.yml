@@ -34,7 +34,10 @@ en:
         topic: Topic
         message: Message
       topics:
-        - Press Inquiry
+        - Accelerator
+        - Offices
+        - Press
+        - Others
 
   manifest:
     title: Manifest
