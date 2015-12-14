@@ -48,30 +48,30 @@ modalToggles = document.querySelectorAll('[data-toggle-modal]')
       , 200
   , false
 
-# form = document.querySelector('form')
-# form.addEventListener 'submit', (e)->
-#   e.preventDefault()
-#
-#   form.classList.add('pending')
-#   form.querySelector("input[type='submit']").disabled = true
-#
-#   urlEncodedDataPairs = []
-#   for field in form.elements
-#     break if field.type is 'submit'
-#     urlEncodedDataPairs.push "#{encodeURIComponent(field.name)}=#{encodeURIComponent(field.value)}"
-#   urlEncodedData = urlEncodedDataPairs.join('&').replace(/%20/g, '+')
-#
-#   XHR = new XMLHttpRequest()
-#
-#   XHR.addEventListener 'readystatechange', (e)->
-#     return unless XHR.readyState is 4
-#     form.classList.add('done')
-#
-#   XHR.open 'POST', '//fwd.muxumuxu.com/forms/58e098ed-8708-4a25-8caf-b77025eec6ac'
-#   XHR.setRequestHeader 'Content-Type', 'application/x-www-form-urlencoded'
-#
-#   XHR.send urlEncodedData
-#
-#   console.log urlEncodedData
-#
-#   false
+form = document.querySelector('form')
+form.addEventListener 'submit', (e)->
+  e.preventDefault()
+
+  form.classList.add('pending')
+  form.querySelector("input[type='submit']").disabled = true
+
+  urlEncodedDataPairs = []
+  for field in form.elements
+    break if field.type is 'submit'
+    urlEncodedDataPairs.push "#{encodeURIComponent(field.name)}=#{encodeURIComponent(field.value)}"
+  urlEncodedData = urlEncodedDataPairs.join('&').replace(/%20/g, '+')
+
+  XHR = new XMLHttpRequest()
+
+  XHR.addEventListener 'readystatechange', (e)->
+    return unless XHR.readyState is 4
+    form.classList.add('done')
+
+  XHR.open 'POST', '//fwd.muxumuxu.com/forms/58e098ed-8708-4a25-8caf-b77025eec6ac'
+  XHR.setRequestHeader 'Content-Type', 'application/x-www-form-urlencoded'
+
+  XHR.send urlEncodedData
+
+  console.log urlEncodedData
+
+  false
