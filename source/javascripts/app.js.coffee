@@ -71,7 +71,4 @@ form.addEventListener 'submit', (e)->
   XHR.setRequestHeader 'Content-Type', 'application/x-www-form-urlencoded'
 
   XHR.send urlEncodedData
-
-  console.log urlEncodedData
-
   false
