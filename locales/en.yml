@@ -2,13 +2,20 @@
 en:
   meta:
     title: Héméra - Accelerator made for and by entrepreneurs
-    description: Héméra provides Mentoring, Network, Education and Capital to help entrepreneurs change the world.
-    keywords: TODO
+    description: |
+      Héméra provides Mentoring, Network, Education and Capital to help
+      entrepreneurs change the world.
     url: http://hemera.camp/en/
     og:
       title: Héméra - Accelerator made for and by entrepreneurs
-      description: Héméra provides Mentoring, Network, Education and Capital to help entrepreneurs change the world.
+      description: |
+        Héméra provides Mentoring, Network, Education and Capital to help
+        entrepreneurs change the world.
       url: http://hemera.camp/en/
+
+  links:
+    facebook: //facebook.com/hemerabdx/
+    twitter: //twitter.com/Hemera_Bdx
 
   apply_now: Apply Now
   apply_now_url: //hemera.typeform.com/to/XGRrgN
@@ -18,7 +25,9 @@ en:
 
   hero:
     title: Héméra provides
-    subtitle: Mentoring, Network, Education and Capital to help entrepreneurs change the world.
+    subtitle: |
+      Mentoring, Network, Education and Capital to help entrepreneurs change the
+      world.
     scroll: Scroll down to learn more
 
   modal:
