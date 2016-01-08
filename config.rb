@@ -3,9 +3,8 @@ Slim::Engine.disable_option_validator!
 
 activate :dotenv
 page '/index.html', layout: false
-# activate :i18n, mount_at_root: false, langs: %i(en fr), path: '/:locale/'
-activate :i18n, mount_at_root: false, langs: %i(en), path: '/:locale/'
-# I18n.default_locale = :en
+activate :i18n, mount_at_root: false, langs: %i(en fr), path: '/:locale/'
+I18n.default_locale = :en
 
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'

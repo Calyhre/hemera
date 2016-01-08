@@ -1,7 +1,7 @@
 whitelistLanguage = (lang)->
   switch lang
     when 'en' then 'en'
-    # when 'fr' then 'fr'
+    when 'fr' then 'fr'
     else 'en'
 
 changeLanguage = (lang)->

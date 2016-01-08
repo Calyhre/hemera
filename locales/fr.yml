@@ -1,3 +1,156 @@
 ---
 fr:
-  apply_now:
+  meta:
+    title: Héméra - Accélérateur pour des entrepreneurs, par des entrepreneurs
+    description: |
+      Héméra offre Mentorat, Réseau et Capitaux pour accompagner les
+      entrepreneurs qui veulent aller loin et changer le monde.
+    url: http://hemera.camp/fr/
+    og:
+      title: Héméra - Accélérateur pour des entrepreneurs, par des entrepreneurs
+      description: |
+        Héméra offre Mentorat, Réseau et Capitaux pour accompagner les
+        entrepreneurs qui veulent aller loin et changer le monde.
+      url: http://hemera.camp/fr/
+
+  links:
+    facebook: //facebook.com/hemerabdx/
+    twitter: //twitter.com/Hemera_Bdx
+
+  apply_now: Postulez !
+  apply_now_url: //hemera.typeform.com/to/XGRrgN
+
+  header:
+    contact_us: Contact
+
+  hero:
+    title: Héméra offre
+    subtitle: |
+      Mentorat, Réseau et Capitaux pour accompagner les entrepreneurs qui
+      veulent aller loin et changer le monde.
+    scroll: Scroller pour en savoir plus
+
+  modal:
+    contact:
+      suptitle: Contact
+      title: Contactez nous
+      send: Envoyer
+      sent_suptitle: Message envoyé
+      sent_title: Merci nous revenons vers vous rapidement !
+      labels:
+        email: Email
+        phone: Téléphone (optionel)
+        topic: Sujet
+        message: Message
+      topics:
+        - Accelerateurs
+        - Bureaux partagés
+        - Presse
+        - Autres
+
+  manifest:
+    title: Manifeste
+    sections:
+      by-entrepreneurs-for-entrepreneurs:
+        title: Pour des entrepreneurs, par des entrepreneurs
+        text: |
+          Chez Héméra ce sont des entrepreneurs qui sont auprès des
+          entrepreneurs. Nous sélectionnons les meilleures équipes et leur apportons tout
+          le soin et l’attention qu’elles méritent pour leur réussite.
+      learn-and-fail:
+        title: Soyez prêts à apprendre et à échouer
+        text: |
+          Nous faisons tous des erreurs, elles sont inhérentes à la prise de
+          risque et à l’envie de changer un secteur ou un métier. Quelqu'un qui
+          n’échoue pas n’a pas essayé. Nous nous assurons que vous avez les
+          conseils et le bon accompagnement  pour vous aider à prendre les
+          meilleures décisions. Mais nous ne déciderons jamais à votre place.
+      show-purpose:
+        title: Ayez un objectif
+        text: |
+          Ne vous contentez pas de faire votre travail, ou alors c’est que nous
+          ne nous sommes pas compris. Nous avons un grand réseau de contacts à
+          travers le monde à vous présenter. Ces gens-là cherchent objectifs et
+          ambitions; pas seulement une exécution moyenne.
+      long-term-commitment:
+        title: Un engagement à long terme
+        text: |
+          Parce que cela prend souvent plus que quelques semaines pour
+          construire une entreprise à l’activité exponentielle et rentable, vous
+          rejoignez Héméra pour un partenariat de long terme, pas seulement une
+          accélération de quelques semaines.
+      invest:
+        title: Nous allons investir dans votre startup
+        text: |
+          Si nous vous acceptons dans Héméra, nous allons investir du temps mais
+          ensuite aussi des fonds, aux côtés des investisseurs. Nous pensons que
+          nos services et conseils sont précieux pour vous, mais nous pensons
+          aussi que le financement est la meilleure façon de montrer notre
+          confiance et notre ambition, à vos côtés.
+      give-back:
+        title: Soyez prêt à donner en retour
+        text: |
+          L'entrepreneuriat est un parcours, non une fin. Nous pensons que
+          chacun d'entre nous a de la valeur à apporter à Héméra et aux autres
+          membres. Soyez prêt à ouvrir votre réseau et votre esprit pour que
+          nous puissions construire une grande et belle histoire, ensemble.
+      place-to-work:
+        title: Vous aurez un lieu pour créer
+        text: |
+          Nous croyons que les startups apprennent davantage lorsqu'elles
+          travaillent côte à côte. Nous voulons que les entrepreneurs disent que
+          le travail avec leurs pairs est un des meilleurs atouts d’Héméra. Nous
+          avons construit notre programme autour de grands bureaux fonctionnels
+          pour vous permettre de rester concentrés sur votre travail. Héméra est
+          aussi un lieu pour des événements et permettre à toutes les grandes
+          entreprises de venir vous rencontrer.
+      bordeaux-succeed:
+        title: Nous voulons le succès de Bordeaux et de ses startups
+        text: |
+          Bordeaux et sa grande région portent une grande partie de l'innovation
+          au travers de ses startups. Elles méritent un endroit pour créer, se
+          développer, se rencontrer, apprendre, croitre encore plus fort et
+          réussir. Héméra, situé à Bordeaux, est l'accélérateur de la grande
+          région Aquitaine, fondé par et pour les entrepreneurs.
+
+  people:
+    text: |
+      A Héméra nous nous efforçons de vous apporter le meilleur du meilleur pour
+      partager connaissances et expériences. Que ce soit pour les débutants
+      inspirés ou les gourous  technologiques dont vous admirez les projets
+      depuis longtemps; vous repartirez inspiré et prêt à créer.
+
+    ready: |
+      Etes-vous prêt à changer votre vie professionnelle, un marché existant ou
+      un secteur entier ?
+    mentors:
+      benoit-droulin:
+        name: Benoit Droulin
+        job: Administrateur et Mentor
+        twitter: //twitter.com/bdroulin
+        linkedin: //fr.linkedin.com/in/bdroulin
+      david-ducourneau:
+        name: David Ducourneau
+        job: Administrateur et Mentor
+        twitter: //twitter.com/dducourneau
+        linkedin: //fr.linkedin.com/in/dducourneau/fr
+      adrien-dulong:
+        name: Adrien Dulong
+        job: Directeur Général et Mentor
+        twitter: //twitter.com/adulong
+        linkedin: //fr.linkedin.com/in/adrien-dulong-a92aa1b/fr
+      gregory-lefort:
+        name: Gregory Lefort
+        job: Administrateur et Mentor
+        twitter: //twitter.com/greglefort
+        linkedin: //fr.linkedin.com/in/gregorylefort/fr
+      julien-parrou:
+        name: Julien Parrou
+        job: Administrateur et Mentor
+        twitter: //twitter.com/JulienParrou
+        linkedin: //fr.linkedin.com/in/julien-parrou-348171b/fr
+      brice-thebaud:
+        name: Brice Thebaud
+        job: Administrateur et Mentor
+        twitter:
+        linkedin: //fr.linkedin.com/in/brice-thebaud-963517/fr
