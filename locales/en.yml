@@ -20,6 +20,11 @@ en:
   apply_now: Apply Now
   apply_now_url: //hemera.typeform.com/to/XGRrgN
 
+  nav:
+    manifest: Manifest
+    portfolio: Portfolio
+    partners: Partners
+
   header:
     contact_us: Contact us
 

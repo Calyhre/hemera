@@ -20,6 +20,10 @@
     &:last-child
       text-align: right
 
+  &-nav--right
+    +display-flex
+    +align-items(center)
+
   &-icon
     display: block
     margin: 10px
@@ -56,12 +60,20 @@
     display: inline-block
     vertical-align: middle
     color: white
+    font-weight: 500
+    text-decoration: none
     fill: currentColor
     &--text
       margin: 6px 0 0 8px
       height: 20px
       text-decoration: none
       border-bottom: 2px solid rgba(white, .25)
+    &-nav
+      margin-left: 30px
+      margin-top: 5px
+      opacity: .5
+      &--active
+        opacity: 1
     &--toggle
       display: none
       &-icon
