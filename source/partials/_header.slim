@@ -1,11 +1,11 @@
 header.header
-  nav.header-nav--right
-    = link_to '#top', class: 'header-link', data: { scroll: true } do
+  nav.header-nav--left
+    = link_to '/', class: 'header-link'
       = svg_tag 'logo-text', width: 140, height: 41, class: 'header-logo header-logo--full'
       = svg_tag 'logo-stroke', width: 41, height: 41, class: 'header-logo header-logo--stroke'
-      = link_to t('nav.manifest.text'), t('nav.manifest.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'manifest'}"
-      = link_to t('nav.portfolio.text'), t('nav.portfolio.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'portfolio'}"
-      = link_to t('nav.partners.text'), t('nav.partners.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'partners'}"
+    = link_to t('nav.manifest.text'), t('nav.manifest.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'manifest'}"
+    = link_to t('nav.portfolio.text'), t('nav.portfolio.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'portfolio'}"
+    = link_to t('nav.partners.text'), t('nav.partners.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'partners'}"
 
 
   .header-menu data-menu="header-menu"
@@ -31,11 +31,13 @@ header.header
     = link_to t('header.contact_us'), '#', class: 'header-link header-link--text', data: { 'toggle-modal' => 'contact' }
 
 header.header.header--fixed
-  nav
-    = link_to '#top', class: 'header-link', data: { scroll: true } do
+  nav.header-nav--left
+    = link_to '/', class: 'header-link'
       = svg_tag 'logo-text', width: 140, height: 41, class: 'header-logo header-logo--full'
       = svg_tag 'logo-stroke', width: 41, height: 41, class: 'header-logo header-logo--stroke'
-  
+    = link_to t('nav.manifest.text'), t('nav.manifest.url') , class: "header-link header--fixed-link header-link-nav #{'header-link-nav--active' if current == 'manifest'}"
+    = link_to t('nav.portfolio.text'), t('nav.portfolio.url') , class: "header-link header--fixed-link header-link-nav #{'header-link-nav--active' if current == 'portfolio'}"
+    = link_to t('nav.partners.text'), t('nav.partners.url') , class: "header-link header--fixed-link header-link-nav #{'header-link-nav--active' if current == 'partners'}"
   .header-menu data-menu="header-menu"
     nav
       = link_to t('links.facebook'), class: 'header-link', target: '_blank' do

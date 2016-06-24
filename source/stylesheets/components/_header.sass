@@ -20,7 +20,7 @@
     &:last-child
       text-align: right
 
-  &-nav--right
+  &-nav--left
     +display-flex
     +align-items(center)
 
@@ -85,7 +85,9 @@
           display: none
           &-shown
             display: block
-
+  &--fixed
+    &-link
+      color: #8A8A8A
 @media (max-width: 640px)
   .header
     padding: 16px 20px
