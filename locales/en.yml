@@ -218,3 +218,42 @@ en:
       We work with founders and companies to transform good ideas into great products and services.
     text: |
       We are an active partner for startups who need fuel to get their product built or get to the next level. Occasionally we also do pre-seed or seed cash investments in selected startups.
+    modal:
+      button: website
+      mentor: Mentor
+    sections:
+      meltycasa:
+        name: meltycasa
+        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+        mentor: Gregory Lefort
+        url: //
+      legalvision:
+        name: legalvision
+        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+        mentor: Gregory Lefort
+        url: //
+      oxioneo:
+        name: oxioneo
+        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+        mentor: Gregory Lefort
+        url: //
+      hawk:
+        name: hawk
+        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+        mentor: Gregory Lefort
+        url: //
+      kazoart:
+        name: kazoart
+        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+        mentor: Gregory Lefort
+        url: //
+      mibclean:
+        name: mibclean
+        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+        mentor: Gregory Lefort
+        url: //
+      my_yeti:
+        name: my yeti
+        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+        mentor: Gregory Lefort
+        url: //

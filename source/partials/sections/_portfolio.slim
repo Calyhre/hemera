@@ -1,0 +1,20 @@
+section.section.portfolio
+  .wrapper
+    = svg_tag 'logo', class: 'portfolio-logo', width: 54, height: 54
+    
+    .portfolio-sections
+      - t('portfolio.sections').each do |item, i|
+        .portfolio-section class="logo-section--#{item}"
+          .portfolio-section-logo
+            = image_tag "portfolio/#{item}.png", class: 'portfolio-section-logo-img'
+          
+    .portfolio-modals
+      - t('portfolio.sections').each do |item, i|
+        .portfolio-modal class="portfolio-modal--#{item}"
+          h3.portfolio-modal-title = t "portfolio.sections.#{item}.name"
+          p.portfolio-modal-text = t "portfolio.sections.#{item}.text"
+          p.portfolio-modal-text = t('portfolio.modal.mentor') + ': ' + t("portfolio.sections.#{item}.mentor")
+          a.portfolio-modal-button href="t('portfolio.sections.#{item}.url')" = t "portfolio.modal.button"
+
+    .overlay
+  = partial 'partials/sections/join' 
