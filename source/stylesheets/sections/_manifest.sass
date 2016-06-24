@@ -8,7 +8,8 @@
   text-align: center
   .wrapper
     background-color: white
-    padding: 48px 20px
+    max-width: 1080px
+    padding: 48px 80px
   .separator
     fill: #FF2861
   &-logo
@@ -18,15 +19,22 @@
     margin: -27px
   &-sections
     padding: 75px 0
+    +display-flex
+    +flex-wrap(wrap)
+    +justify-content(space-between)
   &-section
-    max-width: 620px
+    max-width: 410px
     padding: 0
-    margin: 0 auto 78px
+    text-align: left
+    display: inline-block
+    margin-top: 60px
+    &:first-child
+      margin-top: 0
     &:last-child
       margin-bottom: 0
     &-icon
       display: block
-      margin: auto
+      margin-left: -7px
     &-title
       font-family: $serif
       font-weight: $font-weight-bold
