@@ -154,3 +154,67 @@ en:
         job: Board Member & Mentor
         twitter:
         linkedin: //fr.linkedin.com/in/brice-thebaud-963517/fr
+  partners:
+    title: Partners
+    subtitle: |
+      We work with founders and companies to transform good ideas into great products and services.
+    text: |
+      We are an active partner for startups who need fuel to get their product built or get to the next level. Occasionally we also do pre-seed or seed cash investments in selected startups.
+    sections:
+      autopilot:
+        name: autopilot
+        text: Autopilot is easy and visual marketing software for automating the customer journey.
+      azendoo:
+        name: azendoo
+        text: Basically the best teamwork app on earth ;-)
+      captain_contrat:
+        name: captain contrat
+        text: Captain Contrat meets the legal needs of businesses at unbeatable prices.
+      chartmogul:
+        name: CHARTMOGUL
+        text: ChartMogul gives you the tools to measure, understand and grow your subscription business.
+      dashlane:
+        name: DASHLANE
+        text: Keep all your password in one secure place.
+      digitalocean:
+        name: DIGITALOCEAN
+        text: Simple Cloud Computing built for developers.
+      frontapp:
+        name: frontapp
+        text: All your customer support in one place.
+      gandi:
+        name: gandi
+        text: Web hosting, domain name provider.
+      github:
+        name: github
+        text: You don't know it?! You're not a developer.
+      gocardless:
+        name: gocardless
+        text: The simplified debit.
+      inspectlet:
+        name: inspectlet
+        text: Heatmap your website.
+      intercom:
+        name: intercom
+        text: Intercom is a customer platform with a suite of products for live chat, marketing, feedback, and support.
+      lemonway:
+        name: lemonway
+        text: Payment solution specially for marketplaces.
+      segment:
+        name: segment
+        text: Collect customer data with one API and send it to hundreds of tools for analytics, marketing, and data warehousing.
+      stripe:
+        name: stripe
+        text: Web and mobile payments built for developers.
+      talkus:
+        name: talkus
+        text: Chat with your website users directly from Slack.
+      typeform:
+        name: typeform
+        text: Create awesome forms easily.
+  portfolio:
+    title: Portfolio
+    subtitle: |
+      We work with founders and companies to transform good ideas into great products and services.
+    text: |
+      We are an active partner for startups who need fuel to get their product built or get to the next level. Occasionally we also do pre-seed or seed cash investments in selected startups.

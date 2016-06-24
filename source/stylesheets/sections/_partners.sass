@@ -1,0 +1,41 @@
+.partners
+  background-color: #E9DFD3
+  overflow: auto
+  position: relative
+  // margin-bottom: 302px
+  .wrapper
+    background-color: white
+    max-width: 1080px
+    padding: 48px 120px
+    padding-bottom: 48px + 151
+  &-logo
+    position: absolute
+    top: 0
+    left: 50%
+    margin: -27px
+  &-sections
+    padding: 75px 0
+    +display-flex
+    +flex-wrap(wrap)
+    +justify-content(space-between)
+  &-section
+    width: 100%
+    +display-flex
+    +align-items(center)
+    margin-bottom: 60px
+    &:last-child
+      margin-bottom: 0
+    &-logo
+      width: 200px
+      min-width: 200px
+      margin-right: 50px
+      &-img
+        height: auto
+    &-title
+      text-transform: uppercase
+      font-weight: bold
+      margin: 0
+    &-text
+      margin: 0
+      color: $black
+      font-family: $serif

@@ -1,0 +1,11 @@
+.small-hero
+  .small-hero-heading
+    .small-hero-section
+      h1.small-hero--title = t "#{current}.title"
+      = image_tag "#{current}-deco.svg", width: 68, height: 13
+
+
+    .small-hero-section
+      .small-hero-section-text
+        h2.small-hero--subtitle = t "#{current}.subtitle"
+        p.small-hero--text = t "#{current}.text"
