@@ -21,9 +21,15 @@ fr:
   apply_now_url: //hemera.typeform.com/to/XGRrgN
 
   nav:
-    manifest: Manifeste
-    portfolio: Portfolio
-    partners: Partenaires 
+    manifest:
+      text: Manifeste
+      url: manifest/index.html
+    portfolio:
+      text: Portfolio
+      url: portfolio/index.html
+    partners:
+      text: Partenaires
+      url: partners/index.html 
 
   header:
     contact_us: Contact

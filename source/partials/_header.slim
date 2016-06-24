@@ -3,9 +3,10 @@ header.header
     = link_to '#top', class: 'header-link', data: { scroll: true } do
       = svg_tag 'logo-text', width: 140, height: 41, class: 'header-logo header-logo--full'
       = svg_tag 'logo-stroke', width: 41, height: 41, class: 'header-logo header-logo--stroke'
-    = link_to t('nav.manifest'), '/' + t('nav.manifest') + '/', class: 'header-link header-link-nav header-link-nav--active'
-    = link_to t('nav.portfolio'), '/' + t('nav.portfolio') + '/', class: 'header-link header-link-nav'
-    = link_to t('nav.partners'), '/' + t('nav.partners') + '/', class: 'header-link header-link-nav'
+      = link_to t('nav.manifest.text'), t('nav.manifest.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'manifest'}"
+      = link_to t('nav.portfolio.text'), t('nav.portfolio.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'portfolio'}"
+      = link_to t('nav.partners.text'), t('nav.partners.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'partners'}"
+
 
   .header-menu data-menu="header-menu"
     nav
