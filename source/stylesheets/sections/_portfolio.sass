@@ -7,7 +7,7 @@
     background-size: auto
     max-width: 1080px
     padding: 48px 120px
-    padding-bottom: calc(340px / 2)
+    padding-bottom: calc(470px / 2)
   &-logo
     position: absolute
     top: 0
@@ -22,22 +22,25 @@
   &-section
     +display-flex
     +align-items(center)
-    background: rgba(black, 0.5)
     cursor: pointer
     height: 150px
     margin-bottom: 60px
     width: calc(860px / 3)
+    &:hover
+      background: url("/images/join-deco--hamburger.svg") no-repeat center center
+      background-size: contain
+
     &:last-child
       margin-bottom: 0
     &-logo
       +display-flex
       +align-items(center)
       +justify-content(center)
-      padding: 20px
+      padding: 50px
+      margin: 0 auto
       &-img
-        width: auto
         max-width: 100%
-        height: auto
+        mix-blend-mode: multiply
   &-modal
     display: none
     position: fixed
