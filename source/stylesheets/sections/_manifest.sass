@@ -7,10 +7,12 @@
   overflow: auto
   text-align: center
   .wrapper
+    z-index: 5
+    position: relative
     background: url("/images/manifest-background.svg") repeat-y top left
     background-size: auto
     max-width: 1080px
-    padding: 48px 80px
+    padding: 48px 80px 48px 120px
   .separator
     fill: #FF2861
   &-logo
@@ -28,7 +30,11 @@
     padding: 0
     text-align: left
     display: inline-block
-    margin-top: 60px
+    margin-bottom: 60px
+    &:nth-child(2)
+      margin-top: 100px
+    &:nth-child(odd)
+      margin-top: -100px
     &:first-child
       margin-top: 0
     &:last-child
