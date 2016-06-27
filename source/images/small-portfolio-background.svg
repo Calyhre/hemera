@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="641px" height="340px" viewBox="0 0 641 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="641" height="341"></rect>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-5" transform="translate(-179.000000, -222.000000)">
+            <g id="Group-2" transform="translate(179.000000, 221.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-400"></g>
+                <path d="M0,1 L641,1 L641,470 L0,470 L0,1 Z M58,84 C67.9411255,84 76,75.9411255 76,66 C76,56.0588745 67.9411255,48 58,48 C48.0588745,48 40,56.0588745 40,66 C40,75.9411255 48.0588745,84 58,84 Z M58,424 C67.9411255,424 76,415.941125 76,406 C76,396.058875 67.9411255,388 58,388 C48.0588745,388 40,396.058875 40,406 C40,415.941125 48.0588745,424 58,424 Z" id="Combined-Shape" fill="#00129D" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

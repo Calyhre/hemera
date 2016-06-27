@@ -1,0 +1,37 @@
+.small-section
+  position: absolute
+  &.portfolio
+    padding: 110px 130px 100px 115px
+    z-index: 1
+    top: -650px
+    left: -190px
+    // height: 469px
+    width: 640px
+    color: #fff
+    background: url("/images/small-portfolio-background.svg") repeat-y top left
+    background-size: auto
+  &.partners
+    z-index: 2
+    padding: 115px 190px 100px 115px
+    top: -170px + -440px
+    right: -190px
+    // height: 434px
+    width: 715px
+    color: $black
+    background: url("/images/small-partners-background.svg") repeat-y top left
+    background-size: auto
+
+  &-content
+    text-align: left
+    &--title
+      font-weight: bold
+      font-size: 39px
+      color: inherit
+      text-transform: uppercase
+      margin: 0
+      margin-bottom: 10px
+    &--text
+      margin: 0
+      font-weight: lighter
+      line-height: 22px
+      font-size: 18px
