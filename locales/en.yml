@@ -160,6 +160,10 @@ en:
       We work with founders and companies to transform good ideas into great products and services.
     text: |
       We are an active partner for startups who need fuel to get their product built or get to the next level. Occasionally we also do pre-seed or seed cash investments in selected startups.
+    home:
+      text: We work with founders and companies to transform good ideas into great products and services.
+      button: discover
+
     sections:
       autopilot:
         name: autopilot
@@ -221,6 +225,10 @@ en:
     modal:
       button: website
       mentor: Mentor
+    home:
+      text: We work with founders and companies to transform good ideas into great products and services.
+      button: discover
+
     sections:
       meltycasa:
         name: meltycasa
@@ -257,3 +265,10 @@ en:
         text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
         mentor: Gregory Lefort
         url: //
+
+  join:
+    portfolio:
+      title: Want to join the movement?
+    partners:
+      title: You want to be part of the story?
+    button: Apply now!

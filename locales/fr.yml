@@ -29,7 +29,7 @@ fr:
       url: portfolio/index.html
     partners:
       text: Partenaires
-      url: partners/index.html 
+      url: partners/index.html
 
   header:
     contact_us: Contact
@@ -165,3 +165,117 @@ fr:
         job: Administrateur et Mentor
         twitter:
         linkedin: //fr.linkedin.com/in/brice-thebaud-963517/fr
+  partners:
+    title: Partenaires
+    subtitle:
+    text:
+    home:
+      text:
+      button:
+
+    sections:
+      autopilot:
+        name: autopilot
+        text:
+      azendoo:
+        name: azendoo
+        text:
+      captain_contrat:
+        name: captain contrat
+        text:
+      chartmogul:
+        name: CHARTMOGUL
+        text:
+      dashlane:
+        name: DASHLANE
+        text:
+      digitalocean:
+        name: DIGITALOCEAN
+        text:
+      frontapp:
+        name: frontapp
+        text:
+      gandi:
+        name: gandi
+        text:
+      github:
+        name: github
+        text: .
+      gocardless:
+        name: gocardless
+        text:
+      inspectlet:
+        name: inspectlet
+        text:
+      intercom:
+        name: intercom
+        text:
+      lemonway:
+        name: lemonway
+        text:
+      segment:
+        name: segment
+        text:
+      stripe:
+        name: stripe
+        text:
+      talkus:
+        name: talkus
+        text:
+      typeform:
+        name: typeform
+        text:
+  portfolio:
+    title: Portfolio
+    subtitle:
+    text:
+    modal:
+      button: website
+      mentor: Mentor
+    home:
+      text:
+      button: Découvrir
+
+    sections:
+      meltycasa:
+        name: meltycasa
+        text:
+        mentor: Gregory Lefort
+        url: //
+      legalvision:
+        name: legalvision
+        text:
+        mentor: Gregory Lefort
+        url: //
+      oxioneo:
+        name: oxioneo
+        text:
+        mentor: Gregory Lefort
+        url: //
+      hawk:
+        name: hawk
+        text:
+        mentor: Gregory Lefort
+        url: //
+      kazoart:
+        name: kazoart
+        text:
+        mentor: Gregory Lefort
+        url: //
+      mibclean:
+        name: mibclean
+        text:
+        mentor: Gregory Lefort
+        url: //
+      my_yeti:
+        name: my yeti
+        text:
+        mentor: Gregory Lefort
+        url: //
+
+  join:
+    portfolio:
+      title: Voulez-vous rejoindre le mouvement ?
+    partners:
+      title: Voulez-vous faire partie de l'histoire ?
+    button: Postulez !
