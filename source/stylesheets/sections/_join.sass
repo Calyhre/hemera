@@ -1,13 +1,14 @@
 .join
+  position: relative
+  bottom: calc(356px/2)
+  width: 581px
+  margin: 0 auto
   &-content
     position: relative
-    bottom: calc(320px/2)
-    width: 581px
     z-index: 2
     color: #fff
     background: url("/images/join-background.svg") repeat-y top left
     background-size: auto
-    margin: 0 auto
     padding: 78px 40px 78px 120px
     &--title
       color: white
@@ -16,25 +17,24 @@
       font-size: 50px
       line-height: 50px
       margin: 0
-  &-elements
-    .join-deco
-      &--triangle
-        position: absolute
-        left: -52px - 66px
-        bottom: 111px
-        z-index: 3
-      &--circle
-        position: absolute
-        top: 70px
-        right: -68px
-        z-index: 1
-      &--hamburger
-        position: absolute
-        right: 107px
-        top: -34px
-        z-index: 3
-      &--cutdot
-        position: absolute
-        bottom: -17px
-        right: 73px
-        z-index: 3
+  .join-deco
+    &--triangle
+      position: absolute
+      left: -52px - 66px
+      bottom: 111px
+      z-index: 3
+    &--circle
+      position: absolute
+      top: 70px
+      right: -68px
+      z-index: 1
+    &--hamburger
+      position: absolute
+      right: 107px
+      top: -34px
+      z-index: 3
+    &--cutdot
+      position: absolute
+      bottom: -17px
+      right: 73px
+      z-index: 3
