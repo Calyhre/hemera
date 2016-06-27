@@ -1,8 +1,8 @@
 .join
   .join-wrapper
     .join-content
-      h1.join-content--title You want to be part of the story?
-      a.button href="#" Contact us
+      h1.join-content--title = t "join.#{current}.title"
+      a.button href="#" = t 'join.button'
     .join-elements
       = image_tag "join-deco--triangle.svg", class: 'join-deco--triangle', width: 66, height: 66
       = image_tag "join-deco--hamburger.svg", class: 'join-deco--hamburger', width: 58, height: 56

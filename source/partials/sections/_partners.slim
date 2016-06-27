@@ -12,4 +12,4 @@ section.section.partners
             h3.partners-section-title = t "partners.sections.#{name}.name"
             p.partners-section-text = t "partners.sections.#{name}.text"
 
-  = partial 'partials/sections/join' 
+  = partial 'partials/sections/join', locals: { current: 'partners'} 

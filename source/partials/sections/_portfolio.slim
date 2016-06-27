@@ -14,7 +14,7 @@ section.section.portfolio
           h3.portfolio-modal-title = t "portfolio.sections.#{item}.name"
           p.portfolio-modal-text = t "portfolio.sections.#{item}.text"
           p.portfolio-modal-text = t('portfolio.modal.mentor') + ': ' + t("portfolio.sections.#{item}.mentor")
-          a.portfolio-modal-button href="t('portfolio.sections.#{item}.url')" = t "portfolio.modal.button"
+          a.button href="t('portfolio.sections.#{item}.url')" = t "portfolio.modal.button"
 
     .overlay
-  = partial 'partials/sections/join' 
+  = partial 'partials/sections/join', locals: { current: 'portfolio'} 
