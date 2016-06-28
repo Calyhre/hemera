@@ -4,7 +4,7 @@
   width: 100%
   +display-flex
   +flex-direction(row)
-  +align-items(center)
+  +align-items(flex-start)
   +justify-content(space-between)
   padding: 16px 32px
   &-logo
@@ -91,11 +91,32 @@
 @media (max-width: 640px)
   .header
     padding: 16px 20px
+    background: $blue
+    .header-link-nav
+      color: white
+    &--fixed
+      background: white
+      .header-link-nav
+        color: #8A8A8A
     &-logo
       &--full
         display: none
       &--stroke
         display: block
+    &-nav
+      &--left
+        .header-link-nav
+          display: none
+      &-mobile
+        +display-flex
+        +flex-direction(column)
+        +justify-content(center)
+        +align-items(center)
+
+
+    &-link-nav
+      color: #8A8A8A
+      margin: 14px 5px 3px
     nav
       width: 60px
     &-menu

@@ -1,7 +1,7 @@
 .join
   position: relative
-  bottom: calc(356px/2)
-  width: 581px
+  bottom: 100px
+  width: 580px
   margin: 0 auto
   &-content
     position: relative
@@ -9,13 +9,12 @@
     color: #fff
     background: url("/images/join-background.svg") repeat-y top left
     background-size: auto
-    padding: 78px 40px 78px 120px
+    padding: 80px 40px 80px 120px
     &--title
       color: white
       font-family: $serif
       font-weight: bold
       font-size: 50px
-      line-height: 50px
       margin: 0
   .join-deco
     &--triangle
@@ -38,3 +37,19 @@
       bottom: -17px
       right: 73px
       z-index: 3
+
+@media (max-width: 660px)
+  .join
+    position: initial
+    width: 100%
+    background: $pink
+    padding: 40px 20px
+    &-content
+      background: none
+      padding: 0
+      text-align: center
+      &--title
+        text-align: left
+        font-size: 38px
+    &-elements
+      display: none

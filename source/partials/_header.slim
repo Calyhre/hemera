@@ -8,18 +8,22 @@ header.header
     = link_to t('nav.partners.text'), t('nav.partners.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'partners'}"
 
 
-  .header-menu data-menu="header-menu"
-    nav
-      = link_to t('links.facebook'), class: 'header-link', target: '_blank' do
+  / .header-menu data-menu="header-menu"
+  /   nav
+  /     = link_to t('links.facebook'), class: 'header-link', target: '_blank' do
 
   
   .header-menu data-menu="header-menu"
-    nav
-      = link_to t('links.facebook'), class: 'header-link', target: '_blank' do
-        = icon_tag 'facebook', class: 'header-icon'
-      = link_to t('links.twitter'), class: 'header-link', target: '_blank' do
-        = icon_tag 'twitter', class: 'header-icon'
-  
+    nav.header-nav-mobile
+      = link_to t('nav.manifest.text'), t('nav.manifest.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'manifest'}"
+      = link_to t('nav.portfolio.text'), t('nav.portfolio.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'portfolio'}"
+      = link_to t('nav.partners.text'), t('nav.partners.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'partners'}"
+      span
+        = link_to t('links.facebook'), class: 'header-link', target: '_blank' do
+          = icon_tag 'facebook', class: 'header-icon'
+        = link_to t('links.twitter'), class: 'header-link', target: '_blank' do
+          = icon_tag 'twitter', class: 'header-icon'
+
   nav
     = link_to t('links.facebook'), class: 'header-link header-desktop', target: '_blank' do
       = icon_tag 'facebook', class: 'header-icon'
@@ -39,11 +43,15 @@ header.header.header--fixed
     = link_to t('nav.portfolio.text'), t('nav.portfolio.url') , class: "header-link header--fixed-link header-link-nav #{'header-link-nav--active' if current == 'portfolio'}"
     = link_to t('nav.partners.text'), t('nav.partners.url') , class: "header-link header--fixed-link header-link-nav #{'header-link-nav--active' if current == 'partners'}"
   .header-menu data-menu="header-menu"
-    nav
-      = link_to t('links.facebook'), class: 'header-link', target: '_blank' do
-        = icon_tag 'facebook', class: 'header-icon'
-      = link_to t('links.twitter'), class: 'header-link', target: '_blank' do
-        = icon_tag 'twitter', class: 'header-icon'
+    nav.header-nav-mobile
+      = link_to t('nav.manifest.text'), t('nav.manifest.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'manifest'}"
+      = link_to t('nav.portfolio.text'), t('nav.portfolio.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'portfolio'}"
+      = link_to t('nav.partners.text'), t('nav.partners.url') , class: "header-link header-link-nav #{'header-link-nav--active' if current == 'partners'}"
+      span
+        = link_to t('links.facebook'), class: 'header-link', target: '_blank' do
+          = icon_tag 'facebook', class: 'header-icon'
+        = link_to t('links.twitter'), class: 'header-link', target: '_blank' do
+          = icon_tag 'twitter', class: 'header-icon'
   = link_to t('apply_now'), t('apply_now_url'), class: 'cta header-cta', target: '_blank'
   
   nav
@@ -51,6 +59,7 @@ header.header.header--fixed
       = icon_tag 'facebook', class: 'header-icon'
     = link_to t('links.twitter'), class: 'header-link header-desktop', target: '_blank' do
       = icon_tag 'twitter', class: 'header-icon'
+    
     a.header-link.header-link--toggle data-toggle-menu="header-menu"
       = icon_tag 'more', class: 'header-icon header-link--toggle-icon'
       = icon_tag 'close', class: 'header-icon header-link--toggle-icon-shown'

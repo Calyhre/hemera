@@ -54,7 +54,7 @@
       font-size: 18px
       line-height: 22px
       margin: 0
-
+      
 @media (max-width: 660px)
   .manifest
     padding-left: 0
@@ -77,8 +77,12 @@
       padding: 30px 0
 
     &-section
+      margin: 0
       text-align: left
       margin-bottom: 30px
+      &:nth-child(2), &:nth-child(odd)
+        margin-top: 0
+
       &-icon
         margin: 0 0 0 -6px
       &-title
