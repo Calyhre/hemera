@@ -32,7 +32,24 @@
     width: 50%
     &-text
       width: 460px
-  .partners-color
-    stroke: #00DF94
-  .portfolio-color
-    stroke: #FF2861
+  .partners-separator
+    fill: #00DF94
+  .portfolio-separator
+    fill: #FF2861
+@media (max-width: 660px)
+  .separator
+    width: 35px
+    margin: 12px 0
+  .small-hero
+    background: $blue
+    padding: 120px 20px 60px 20px
+    &-heading
+      +flex-direction(column)
+    &--title
+      font-size: 40px
+    &--text
+      margin-top: 7px
+    &-section
+      width: 100%
+      &-text
+        width: 100%
