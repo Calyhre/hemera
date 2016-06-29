@@ -3,4 +3,4 @@
     .small-section-content
       h1.small-section-content--title = t 'partners.title'
       p.small-section-content--text = t 'partners.home.text'
-      a.button href="#" = t 'partners.home.button'
+      = link_to t('partners.home.button'), t('nav.partners.url'), class: 'button'

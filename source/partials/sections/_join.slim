@@ -2,7 +2,9 @@
   .join-wrapper
     .join-content
       h1.join-content--title = t "join.#{current}.title"
-      a.button href="#" = t 'join.button'
+      = link_to t('apply_now'), t('apply_now_url'), class: 'button', target: '_blank'
+
+      
     .join-elements
       = image_tag "join-deco--triangle.svg", class: 'join-deco--triangle', width: 66, height: 66
       = image_tag "join-deco--hamburger.svg", class: 'join-deco--hamburger', width: 58, height: 56

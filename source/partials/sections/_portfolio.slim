@@ -14,7 +14,7 @@ section.section.portfolio
           h3.portfolio-modal-title = t "portfolio.sections.#{item}.name"
           p.portfolio-modal-text = t "portfolio.sections.#{item}.text"
           p.portfolio-modal-text = t('portfolio.modal.mentor') + ': ' + t("portfolio.sections.#{item}.mentor")
-          a.button href="t('portfolio.sections.#{item}.url')" = t "portfolio.modal.button"
+          = link_to t('portfolio.modal.button'), t("portfolio.sections.#{item}.url"), class: 'button', target: '_blank'
 
     .overlay
   = partial 'partials/sections/join', locals: { current: 'portfolio'} 
