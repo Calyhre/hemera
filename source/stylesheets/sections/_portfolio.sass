@@ -18,16 +18,15 @@
     max-width: 860px
     +display-flex
     +flex-wrap(wrap)
-    +justify-content(space-between)
+    +justify-content(space-around)
   &-section
     +display-flex
     +align-items(center)
     cursor: pointer
     height: auto
     margin-bottom: 60px
-    width: calc(100% / 3)
-    &:last-child
-      margin-bottom: 0
+    width: calc(100% / 3 - 20px)
+    max-height: 150px
     &-logo
       +display-flex
       +align-items(center)
@@ -35,8 +34,8 @@
       padding: 50px
       margin: 0 auto
       &-img
-        max-width: 100%
-        mix-blend-mode: multiply
+        max-width: 150px
+        max-height: 150px
   &-modal
     color: $black
     &--active
@@ -109,6 +108,7 @@
       width: 100%
     &-section
       height: 80px
+      padding: 10px
       margin-bottom: 40px
       width: calc(50% - 20px)
       &:last-child
@@ -119,6 +119,7 @@
         height: 100%
         &-img
           max-height: 100%
+          max-width: 100%
     &-modal
       padding: 50px
       height: auto
