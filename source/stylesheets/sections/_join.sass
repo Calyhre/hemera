@@ -5,7 +5,7 @@
   margin: 0 auto
   &-content
     position: relative
-    z-index: 2
+    z-index: $join_middle_Zindex
     color: #fff
     background: url("/images/join-background.svg") repeat-y top left
     background-size: auto
@@ -21,22 +21,22 @@
       position: absolute
       left: -52px - 66px
       bottom: 111px
-      z-index: 3
+      z-index: $join_top_Zindex
     &--circle
       position: absolute
       top: 70px
       right: -68px
-      z-index: 1
+      z-index: $join_under_Zindex
     &--hamburger
       position: absolute
       right: 107px
       top: -34px
-      z-index: 3
+      z-index: $join_top_Zindex
     &--cutdot
       position: absolute
       bottom: -17px
       right: 73px
-      z-index: 3
+      z-index: $join_top_Zindex
 
 @media (max-width: 660px)
   .join
