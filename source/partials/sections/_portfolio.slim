@@ -6,8 +6,10 @@ section.section.portfolio
       - t('portfolio.sections').each do |item, i|
         .portfolio-section class="logo-section--#{item}"
           .portfolio-section-logo
-            = image_tag "portfolio/#{item}.svg", class: 'portfolio-section-logo-img'
-          
+            - if %i(legalvision hawk kazoart).include?(item)
+              = image_tag "portfolio/#{item}.png", class: 'portfolio-section-logo-img'
+            - else
+              = image_tag "portfolio/#{item}.svg", class: 'portfolio-section-logo-img'
     .portfolio-modals
       - t('portfolio.sections').each do |item, i|
         .portfolio-modal class="portfolio-modal--#{item}"
