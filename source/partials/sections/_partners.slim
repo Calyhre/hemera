@@ -6,7 +6,7 @@ section.section.partners
       - t('partners.sections').each do |name, text|
         .partners-section class="partners-section--#{name}"
           .partners-section-logo
-            = image_tag "partners/#{name}.png", class: 'partners-section-logo-img', width: 200, height: 50
+            = image_set_tag "partners/#{name}.png", class: 'partners-section-logo-img'
 
           .partners-section-infos
             h3.partners-section-title = t "partners.sections.#{name}.name"

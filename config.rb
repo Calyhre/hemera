@@ -27,6 +27,17 @@ helpers do
   def inline_svg(path)
     File.open "source/images/#{path}", 'rb', &:read
   end
+
+  def image_set_tag(source, options = {})
+    sizes = options.delete(:sizes) || %w(2x)
+    srcset = sizes.map do |size|
+      filename = File.basename(source, '.*')
+      name = source.sub(filename, "#{filename}@#{size}")
+      "#{asset_url('images/' + name)} #{size}"
+    end.join(', ')
+
+    image_tag(source, options.merge(srcset: srcset))
+  end
 end
 
 configure :development do
