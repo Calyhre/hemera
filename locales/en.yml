@@ -23,13 +23,13 @@ en:
   nav:
     manifest:
       text: Manifest
-      url: /index.html
+      url: /
     portfolio:
       text: Portfolio
-      url: /portfolio/index.html
+      url: portfolio
     partners:
       text: Partners
-      url: /partners/index.html
+      url: partners
 
   header:
     contact_us: Contact us
