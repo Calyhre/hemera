@@ -19,15 +19,17 @@
     +justify-content(space-between)
   &-section
     width: 100%
-    +display-flex
-    +align-items(center)
+    // +display-flex
+    // +align-items(center)
     margin-bottom: 30px
     &::after
       content: ''
-      width: 100%
+      width: calc(100% - 250px)
       height: 1px
       background: #F4F4F4
+      display: block
       margin-top: 30px
+      float: right
     &:last-child
       margin-bottom: 0
       &::after
@@ -36,8 +38,12 @@
       width: 200px
       min-width: 200px
       margin-right: 50px
+      display: inline-block
       &-img
         height: auto
+    &-infos
+      width: calc(100% - 260px)
+      display: inline-block
     &-title
       text-transform: uppercase
       font-weight: bold
@@ -73,7 +79,25 @@
         margin-right: 0
         &-img
           height: 100%
+      &-infos
+        display: block
+        width: 100%
+      &::after
+        width: 100%
+        float: none
       &-title
         font-size: 18px
       &-text
         font-size: 15px
+
+@media (min-width: 660px) and (max-width: 1024px)
+  .partners
+    .wrapper
+      padding-right: 20px
+    &-section
+      &-logo
+        width: 120px
+        min-width: 120px
+        &-img
+          height: auto
+          width: auto

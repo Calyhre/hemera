@@ -32,6 +32,7 @@
     width: 50%
     &-text
       width: 460px
+      float: right
   .partners-separator
     fill: #00DF94
   .portfolio-separator
@@ -53,3 +54,16 @@
       width: 100%
       &-text
         width: 100%
+
+@media (min-width: 660px) and (max-width: 1024px)
+  .small-hero
+    padding: 120px 20px 60px 20px
+    &-heading
+      flex-direction: column
+    &-section
+      width: 100%
+      max-width: 570px
+      margin-top: 13px
+      &-text
+        width: 100%
+        float: none
