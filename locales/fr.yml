@@ -26,10 +26,10 @@ fr:
       url: /
     portfolio:
       text: Portfolio
-      url: portfolio
+      url: /portfolio
     partners:
       text: Partenaires
-      url: partners
+      url: /partners
 
   header:
     contact_us: Contact

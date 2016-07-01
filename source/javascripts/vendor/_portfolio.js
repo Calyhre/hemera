@@ -1,6 +1,7 @@
 var portfolio_logos = document.querySelectorAll('.portfolio-section');
 var portfolio_modals = document.querySelectorAll('.portfolio-modal');
 var portfolio_overlay = document.querySelector('.overlay');
+var img = window.IMAGES;
 
 for (var i = 0; i < portfolio_logos.length; i++) {
     portfolio_logos[i].addEventListener('click', function(evt) {
@@ -22,11 +23,9 @@ for (var i = 0; i < portfolio_logos.length; i++) {
         }
     });
     portfolio_logos[i].addEventListener('mouseenter', function(evt) {
-        var shapesArray = ['circle', 'triangle', 'hamburger', 'cutdot'];
-        var randomShape = shapesArray[Math.floor(Math.random() * shapesArray.length)];
-        this.style.background = 'url("/images/join-deco--' + randomShape + '.svg") no-repeat center center';
+        var randomShape = img[Math.floor(Math.random() * img.length)];
+        this.style.background = 'url(' + randomShape + ') no-repeat center center';
         this.style.backgroundSize = 'contain';
-
     });
     portfolio_logos[i].addEventListener('mouseleave', function(evt) {
         this.style.background = '';
