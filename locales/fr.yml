@@ -256,11 +256,11 @@ portfolio:
       text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
       mentor: Gregory Lefort
       url: //www.oxioneo-immo.com/
-    hawk:
-      name: hawk
-      text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-      mentor: Gregory Lefort
-      url: //www.hawk4u.com/
+    # hawk:
+    #   name: hawk
+    #   text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+    #   mentor: Gregory Lefort
+    #   url: //www.hawk4u.com/
     kazoart:
       name: kazoart
       text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
@@ -281,7 +281,12 @@ portfolio:
       text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
       mentor: Gregory Lefort
       url: //oureparer.com/
-
+    geev:
+      name: Geev
+      text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+      mentor: Gregory Lefort
+      url: //www.geev.fr/
+      
   join:
     portfolio:
       title: Voulez-vous rejoindre le mouvement ?
