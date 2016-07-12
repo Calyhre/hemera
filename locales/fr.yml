@@ -178,55 +178,55 @@ fr:
   sections:
     autopilot:
       name: Autopilot
-      text: Autopilot is easy and visual marketing software for automating the customer journey.
+      text: Autopilot est un logiciel marketing simple et efficace permettant l'automatisation du parcours client.
     azendoo:
       name: Azendoo
-      text: Basically the best teamwork app on earth ;-)
+      text: Le meilleure application de travail en équipe sur terre, tout simplement :D
     captain_contrat:
       name: Captain Contrat
-      text: Captain Contrat meets the legal needs of businesses at unbeatable prices.
+      text: Vos documents juridiques rédigés par des avocats à prix enfin abordables.
     chartmogul:
       name: Chartmogul
-      text: ChartMogul gives you the tools to measure, understand and grow your subscription business.
+      text: ChartMogul vous offre les outils pour mesurer, comprendre, et developper votre activité.
     dashlane:
       name: Dashlane
-      text: Keep all your password in one secure place.
+      text: Conserver tous vos mots de passe dans un coffre sécurisé.
     digitalocean:
       name: DIGITALOCEAN
-      text: Simple Cloud Computing built for developers.
+      text: Le Cloud Computing simplement et construit pour les developeurs.
     frontapp:
       name: Frontapp
-      text: All your customer support in one place.
+      text: Tous vos canaux de support client en une seule application.
     gandi:
       name: Gandi
-      text: Web hosting, domain name provider.
+      text: Hebergement web et fournisseur de nom de domaine.
     github:
       name: Github
-      text: You don't know it?! You're not a developer.
+      text: Vous ne connaissez pas ?? Vous n'êtes pas dévelopeur !
     gocardless:
       name: GoCardless
-      text: The simplified debit.
+      text: Rien de plus simple pour gérer vos paiements récurrents.
     inspectlet:
       name: Inspectlet
-      text: Heatmap your website.
+      text: Heatmap votre site web facilement.
     intercom:
       name: Intercom
-      text: Intercom is a customer platform with a suite of products for live chat, marketing, feedback, and support.
+      text: Intercom est une plateforme client avec un ensemble de produits de chat en direct, marketing, commentaires, et assistance.
     lemonway:
       name: Lemonway
-      text: Payment solution specially for marketplaces.
+      text: Solution de paiement spécialisée dans les marketplaces.
     segment:
       name: Segment
-      text: Collect customer data with one API and send it to hundreds of tools for analytics, marketing, and data warehousing.
+      text: Collectez toutes vos données clients avec une seule API et envoyez les vers des centaines d'outils d'analytics, ou de marketing.
     stripe:
       name: Stripe
-      text: Web and mobile payments built for developers.
+      text: Paiement web et mobile construit pour les developeurs.
     talkus:
       name: Talkus
-      text: Chat with your website users directly from Slack.
+      text: Echangez avec les utilisateurs de votre site web directement depuis Slack.
     typeform:
       name: Typeform
-      text: Create awesome forms easily.
+      text: Créez de superbes formulaires facilement.
   portfolio:
     title: Portfolio
     subtitle: |
