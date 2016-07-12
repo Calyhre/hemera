@@ -157,71 +157,71 @@ en:
   partners:
     title: Partners
     subtitle: |
-      We work with founders and companies to transform good ideas into great products and services.
+      We work with top tier partners that help us assist our startups in their mission to change the world.
     text: |
-      We are an active partner for startups who need fuel to get their product built or get to the next level. Occasionally we also do pre-seed or seed cash investments in selected startups.
+      Our partners are selected with one goal in mind : provide services and knowledge that will allow our startups to grow as fast as possible.
     home:
-      text: We work with founders and companies to transform good ideas into great products and services.
+      text: We work with top tier partners that help us assist our startups in their mission to change the world.
       button: discover
 
-    sections:
-      autopilot:
-        name: autopilot
-        text: Autopilot is easy and visual marketing software for automating the customer journey.
-      azendoo:
-        name: azendoo
-        text: Basically the best teamwork app on earth ;-)
-      captain_contrat:
-        name: captain contrat
-        text: Captain Contrat meets the legal needs of businesses at unbeatable prices.
-      chartmogul:
-        name: CHARTMOGUL
-        text: ChartMogul gives you the tools to measure, understand and grow your subscription business.
-      dashlane:
-        name: DASHLANE
-        text: Keep all your password in one secure place.
-      digitalocean:
-        name: DIGITALOCEAN
-        text: Simple Cloud Computing built for developers.
-      frontapp:
-        name: frontapp
-        text: All your customer support in one place.
-      gandi:
-        name: gandi
-        text: Web hosting, domain name provider.
-      github:
-        name: github
-        text: You don't know it?! You're not a developer.
-      gocardless:
-        name: gocardless
-        text: The simplified debit.
-      inspectlet:
-        name: inspectlet
-        text: Heatmap your website.
-      intercom:
-        name: intercom
-        text: Intercom is a customer platform with a suite of products for live chat, marketing, feedback, and support.
-      lemonway:
-        name: lemonway
-        text: Payment solution specially for marketplaces.
-      segment:
-        name: segment
-        text: Collect customer data with one API and send it to hundreds of tools for analytics, marketing, and data warehousing.
-      stripe:
-        name: stripe
-        text: Web and mobile payments built for developers.
-      talkus:
-        name: talkus
-        text: Chat with your website users directly from Slack.
-      typeform:
-        name: typeform
-        text: Create awesome forms easily.
+  sections:
+    autopilot:
+      name: Autopilot
+      text: Autopilot is easy and visual marketing software for automating the customer journey.
+    azendoo:
+      name: Azendoo
+      text: Basically the best teamwork app on earth ;-)
+    captain_contrat:
+      name: Captain Contrat
+      text: Captain Contrat meets the legal needs of businesses at unbeatable prices.
+    chartmogul:
+      name: Chartmogul
+      text: ChartMogul gives you the tools to measure, understand and grow your subscription business.
+    dashlane:
+      name: Dashlane
+      text: Keep all your password in one secure place.
+    digitalocean:
+      name: DIGITALOCEAN
+      text: Simple Cloud Computing built for developers.
+    frontapp:
+      name: Frontapp
+      text: All your customer support in one place.
+    gandi:
+      name: Gandi
+      text: Web hosting, domain name provider.
+    github:
+      name: Github
+      text: You don't know it?! You're not a developer.
+    gocardless:
+      name: GoCardless
+      text: The simplified debit.
+    inspectlet:
+      name: Inspectlet
+      text: Heatmap your website.
+    intercom:
+      name: Intercom
+      text: Intercom is a customer platform with a suite of products for live chat, marketing, feedback, and support.
+    lemonway:
+      name: Lemonway
+      text: Payment solution specially for marketplaces.
+    segment:
+      name: Segment
+      text: Collect customer data with one API and send it to hundreds of tools for analytics, marketing, and data warehousing.
+    stripe:
+      name: Stripe
+      text: Web and mobile payments built for developers.
+    talkus:
+      name: Talkus
+      text: Chat with your website users directly from Slack.
+    typeform:
+      name: Typeform
+      text: Create awesome forms easily.
   portfolio:
     title: Portfolio
     subtitle: |
-      We work with founders and companies to transform good ideas into great products and services.
+      These are the startups that we help in their mission to change the world.
     text: |
-      We are an active partner for startups who need fuel to get their product built or get to the next level. Occasionally we also do pre-seed or seed cash investments in selected startups.
+      We are an active partner for startups who need fuel to get their product built or get to the next level. Occasionally we also do pre-seed investments in selected startups.
     modal:
       button: website
       mentor: Mentor
@@ -229,57 +229,52 @@ en:
       text: We work with founders and companies to transform good ideas into great products and services.
       button: discover
 
-    sections:
-      meltycasa:
-        name: meltycasa
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //www.meltycasa.com
-      legalvision:
-        name: legalvision
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //www.modification-statuts-societe.fr/
-      oxioneo:
-        name: oxioneo
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //www.oxioneo-immo.com/
-      # hawk:
-      #   name: hawk
-      #   text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-      #   mentor: Gregory Lefort
-      #   url: //www.hawk4u.com/
-      kazoart:
-        name: kazoart
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //www.kazoart.com/
-      mibclean:
-        name: mibclean
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //www.mib-clean.com/
-      my_yeti:
-        name: my yeti
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //www.my-yeti.com/
-      oureparer:
-        name: OùRéparer.com
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //oureparer.com/
-      oureparer:
-        name: OùRéparer.com
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //oureparer.com/
-      geev:
-        name: Geev
-        text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-        mentor: Gregory Lefort
-        url: //www.geev.fr/
+  sections:
+    meltycasa:
+      name: Meltycasa
+      text: Le Airbnb de la colocation : permet aux propriétaires et aux colocataires de louer entièrement en ligne.
+      mentor: Benoit Droulin
+      url: //www.meltycasa.com
+    legalvision:
+      name: Legalvision
+      text: Permet aux dirigeants d'entreprise, et notamment des jeunes entrepreneurs, d'obtenir facilement et à moindre frais des documents juridiques de qualités avocat.
+      mentor: Benoit Droulin
+      url: //www.legalvision.fr/
+    oxioneo:
+      name: Oxioneo
+      text: Plateforme permettant de recueillir des offres d’achat en temps réel pour tout bien immobilier
+      mentor: Gregory Lefort
+      url: //www.oxioneo-immo.com/
+    # hawk:
+    #   name: hawk
+    #   text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
+    #   mentor: Gregory Lefort
+    #   url: //www.hawk4u.com/
+    kazoart:
+      name: KAZoART
+      text: Achetez de l'art contemporain en ligne à des prix abordable. L'art est finalement accessible.
+      mentor: Gregory Lefort
+      url: //www.kazoart.com/
+    mibclean:
+      name: MIB Clean
+      text: Plateforme du pressing à domicile et repassage.
+      mentor: Gregory Lefort
+      url: //www.mib-clean.com/
+    my_yeti:
+      name: My Yeti
+      text: Une offre personnalisée de réservation de voyage en ligne, qui recommande les destinations et les voyages les plus pertinents en fonction de votre point de départ et de vos préférences.
+      mentor: Benoit Droulin
+      url: //www.my-yeti.com/
+    oureparer:
+      name: OuReparer.com
+      text: Trouvez et comparez le meilleur réparateur de smartphones et tablettes au bon prix, près de chez vous.
+      mentor: Gregory Lefort & Julien Parrou
+      url: //oureparer.com/
+    geev:
+      name: Geev
+      text: La première application collaborative de dons d'objets.
+      mentor: Gregory Lefort & Julien Parrou
+      url: //www.geev.fr/
 
   join:
     portfolio:
