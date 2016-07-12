@@ -1,0 +1,73 @@
+.small-section
+  position: absolute
+  &.portfolio
+    padding: 140px 130px 100px 115px
+    z-index: $small_portfolio_section_Zindex
+    top: -680px
+    left: -190px
+    width: 640px
+    color: #fff
+    background: url("/images/small-portfolio-background.svg") repeat-y top left
+    background-size: auto
+  &.partners
+    z-index: $small_partners_section_Zindex
+    padding: 115px 190px 100px 115px
+    top: -170px + -440px
+    right: -190px
+    width: 715px
+    color: $black
+    background: url("/images/small-partners-background.svg") repeat-y top left
+    background-size: auto
+
+  &-content
+    text-align: left
+    &--title
+      font-weight: bold
+      font-size: 39px
+      color: inherit
+      text-transform: uppercase
+      margin: 0
+      margin-bottom: 10px
+    &--text
+      margin: 0
+      font-weight: lighter
+      line-height: 22px
+      font-size: 18px
+
+
+@media (max-width: 1100px)
+  .small-section
+    position: relative
+    bottom: 0
+    display: inline-block
+    padding: 50px 80px 50px 120px!important
+    margin-bottom: 200px
+    margin-top: -200px
+    &.portfolio
+      top: initial
+      left: 0
+      z-index: 10
+      width: 50%
+    &.partners
+      right: 0
+      z-index: 10
+      top: initial
+      width: 50%
+
+@media (max-width: 660px)
+  .small-section
+    position: static
+    width: 100%
+    padding: 40px 20px 50px!important
+    margin: 0
+    &.portfolio
+      background: #00129D
+      width: auto
+      margin-left: -20px
+    &.partners
+      margin-top: -20px
+      margin-right: -20px
+      padding-left: 30px!important
+      background: #00DF94
+      width: auto
+      margin-bottom: 50px

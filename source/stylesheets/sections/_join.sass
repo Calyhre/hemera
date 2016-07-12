@@ -1,0 +1,55 @@
+.join
+  position: relative
+  bottom: 100px
+  width: 580px
+  margin: 0 auto
+  &-content
+    position: relative
+    z-index: $join_middle_Zindex
+    color: #fff
+    background: url("/images/join-background.svg") repeat-y top left
+    background-size: auto
+    padding: 80px 40px 80px 120px
+    &--title
+      color: white
+      font-family: $serif
+      font-weight: bold
+      font-size: 50px
+      margin: 0
+  .join-deco
+    &--triangle
+      position: absolute
+      left: -52px - 66px
+      bottom: 111px
+      z-index: $join_top_Zindex
+    &--circle
+      position: absolute
+      top: 70px
+      right: -68px
+      z-index: $join_under_Zindex
+    &--hamburger
+      position: absolute
+      right: 107px
+      top: -34px
+      z-index: $join_top_Zindex
+    &--cutdot
+      position: absolute
+      bottom: -17px
+      right: 73px
+      z-index: $join_top_Zindex
+
+@media (max-width: 660px)
+  .join
+    position: initial
+    width: 100%
+    background: $pink
+    padding: 40px 20px
+    &-content
+      background: none
+      padding: 0
+      text-align: center
+      &--title
+        text-align: left
+        font-size: 38px
+    &-elements
+      display: none

@@ -1,0 +1,104 @@
+.partners
+  background-color: #E9DFD3
+  overflow: auto
+  position: relative
+  .wrapper
+    background: url("/images/manifest-background.svg") repeat-y top left
+    background-size: auto
+    max-width: 1080px
+    padding: 48px 120px 100px 130px
+  &-logo
+    position: absolute
+    top: 0
+    left: 50%
+    margin: -27px
+  &-sections
+    padding: 75px 0
+    +display-flex
+    +flex-wrap(wrap)
+    +justify-content(space-between)
+  &-section
+    width: 100%
+    margin-bottom: 30px
+    &::after
+      content: ''
+      width: calc(100% - 250px)
+      height: 1px
+      background: #F4F4F4
+      display: block
+      margin-top: 30px
+      float: right
+    &:last-child
+      margin-bottom: 0
+      &::after
+        display: none
+    &-logo
+      width: 200px
+      margin-right: 50px
+      display: inline-block
+      &-img
+        max-width: 200px
+        width: auto
+        height: auto
+        display: inline-block
+        vertical-align: middle
+    &-infos
+      width: calc(100% - 260px)
+      display: inline-block
+      vertical-align: middle
+    &-title
+      text-transform: uppercase
+      font-weight: bold
+      margin: 0
+    &-text
+      margin: 0
+      color: $black
+      font-family: $serif
+
+@media (max-width: 660px)
+  .partners
+    background-color: #fff
+    padding: 0
+    .wrapper
+      width: 100%
+      background: none
+      padding: 60px 20px
+    &-logo
+      display: none
+    &-sections
+      padding: 0
+      +flex-direction(column)
+    &-section
+      width: 100%
+      +flex-direction(column)
+      +align-items(flex-start)
+      &:last-child
+        margin-bottom: 0
+      &-logo
+        max-width: 120px
+        margin-bottom: 10px
+        width: auto
+        margin-right: 0
+        &-img
+          width: 120px
+      &-infos
+        display: block
+        width: 100%
+        margin-top: 10px
+      &::after
+        width: 100%
+        float: none
+      &-title
+        font-size: 18px
+      &-text
+        font-size: 15px
+
+@media (min-width: 660px) and (max-width: 1024px)
+  .partners
+    .wrapper
+      padding-right: 20px
+    &-section
+      &-logo
+        width: 100px
+        &-img
+          width: 100px

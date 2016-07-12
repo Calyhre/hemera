@@ -1,0 +1,29 @@
+section.section.portfolio
+  .wrapper
+    = svg_tag 'logo', class: 'portfolio-logo', width: 54, height: 54
+    
+    .portfolio-sections
+      - t('portfolio.sections').each do |item, i|
+        .portfolio-section class="logo-section--#{item}"
+          .portfolio-section-logo
+            - if %i(kazoart).include?(item)
+              = image_tag "portfolio/#{item}.png", class: 'portfolio-section-logo-img'
+            - else
+              = image_tag "portfolio/#{item}.svg", class: 'portfolio-section-logo-img'
+    .portfolio-modals
+      - t('portfolio.sections').each do |item, i|
+        .portfolio-modal class="portfolio-modal--#{item}"
+          h3.portfolio-modal-title = t "portfolio.sections.#{item}.name"
+          p.portfolio-modal-text = t "portfolio.sections.#{item}.text"
+          p.portfolio-modal-text = t('portfolio.modal.mentor') + ': ' + t("portfolio.sections.#{item}.mentor")
+          = link_to t('portfolio.modal.button'), t("portfolio.sections.#{item}.url"), class: 'button', target: '_blank'
+
+    .overlay
+  = partial 'partials/sections/join', locals: { current: 'portfolio'} 
+
+  javascript:
+    var IMAGES = [
+      "#{asset_url('images/join-deco--triangle.svg')}",
+      "#{asset_url('images/join-deco--circle.svg')}",
+      "#{asset_url('images/join-deco--hamburger.svg')}",
+    ];

@@ -1,0 +1,10 @@
+.small-hero
+  .small-hero-heading
+    .small-hero-section
+      h1.small-hero--title = t "#{current}.title"
+      = svg_tag 'separator', class: "separator #{current}-separator", width: 71, height: 16
+
+    .small-hero-section
+      .small-hero-section-text
+        h2.small-hero--subtitle = t "#{current}.subtitle"
+        p.small-hero--text = t "#{current}.text"

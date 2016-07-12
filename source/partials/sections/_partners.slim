@@ -1,0 +1,14 @@
+section.section.partners
+  .wrapper
+    = svg_tag 'logo', class: 'partners-logo', width: 54, height: 54
+
+    .partners-sections
+      - t('partners.sections').each do |name, text|
+        .partners-section class="partners-section--#{name}"
+          .partners-section-logo
+            = image_set_tag "partners/#{name}.png", class: 'partners-section-logo-img'
+
+          .partners-section-infos
+            h3.partners-section-title = t "partners.sections.#{name}.name"
+            p.partners-section-text = t "partners.sections.#{name}.text"
+  = partial 'partials/sections/join', locals: { current: 'partners'} 
