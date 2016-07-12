@@ -182,9 +182,9 @@ fr:
     azendoo:
       name: Azendoo
       text: Le meilleure application de travail en équipe sur terre, tout simplement :D
-    captain_contrat:
-      name: Captain Contrat
-      text: Vos documents juridiques rédigés par des avocats à prix enfin abordables.
+    #captain_contrat:
+    #  name: Captain Contrat
+    #  text: Vos documents juridiques rédigés par des avocats à prix enfin abordables.
     chartmogul:
       name: Chartmogul
       text: ChartMogul vous offre les outils pour mesurer, comprendre, et developper votre activité.

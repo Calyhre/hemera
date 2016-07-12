@@ -171,9 +171,9 @@ en:
       azendoo:
         name: Azendoo
         text: Basically the best teamwork app on earth ;-)
-      captain_contrat:
-        name: Captain Contrat
-        text: Captain Contrat meets the legal needs of businesses at unbeatable prices.
+      #captain_contrat:
+      #  name: Captain Contrat
+      #  text: Captain Contrat meets the legal needs of businesses at unbeatable prices.
       chartmogul:
         name: Chartmogul
         text: ChartMogul gives you the tools to measure, understand and grow your subscription business.
