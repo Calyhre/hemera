@@ -256,11 +256,11 @@ fr:
         text: Plateforme permettant de recueillir des offres d’achat en temps réel pour tout bien immobilier
         mentor: Gregory Lefort
         url: //www.oxioneo-immo.com/
-      # hawk:
-      #   name: hawk
-      #   text: Buy online contemporary art at affordable prices, the best live artists' studios. Art is finally reachable.
-      #   mentor: Gregory Lefort
-      #   url: //www.hawk4u.com/
+       hawk:
+         name: Hawk
+         text: Commandez un opérateur de drône à la demande; quel que soit le besoin.
+         mentor: David Ducourneau & Gregory Lefort
+         url: //www.hawk4u.com/
       kazoart:
         name: KAZoART
         text: Achetez de l'art contemporain en ligne à  prix abordable. L'art est finalement accessible.
