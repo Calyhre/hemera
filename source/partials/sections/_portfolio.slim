@@ -6,7 +6,7 @@ section.section.portfolio
       - t('portfolio.sections').each do |item, i|
         .portfolio-section class="logo-section--#{item}"
           .portfolio-section-logo
-            - if %i(kazoart).include?(item)
+            - if %i(kazoart hawk).include?(item)
               = image_tag "portfolio/#{item}.png", class: 'portfolio-section-logo-img'
             - else
               = image_tag "portfolio/#{item}.svg", class: 'portfolio-section-logo-img'
