@@ -246,11 +246,6 @@ en:
         text: Plateforme permettant de recueillir des offres d’achat en temps réel pour tout bien immobilier
         mentor: Gregory Lefort
         url: //www.oxioneo-immo.com/
-      hawk:
-        name: Hawk
-        text: Commandez un opérateur de drône à la demande; quel que soit le besoin.
-        mentor: David Ducourneau & Gregory Lefort
-        url: //www.hawk4u.com/
       kazoart:
         name: KAZoART
         text: Achetez de l'art contemporain en ligne à des prix abordable. L'art est finalement accessible.
@@ -271,11 +266,16 @@ en:
         text: Trouvez et comparez le meilleur réparateur de smartphones et tablettes au bon prix, près de chez vous.
         mentor: Gregory Lefort & Julien Parrou
         url: //oureparer.com/
-      geev:
-        name: Geev
-        text: La première application collaborative de dons d'objets.
-        mentor: Gregory Lefort & Julien Parrou
-        url: //www.geev.fr/
+      purefood:
+        name: Purefood
+        text: Healthy and natural food for athletes
+        mentor: Gregory Lefort
+        url: //www.purefood.fr/
+      popsite:
+        name: Popsite
+        text: Create you professional website simple answering questions
+        mentor: Benoit Droulin
+        url: //mypopsite.com
 
   join:
     portfolio:

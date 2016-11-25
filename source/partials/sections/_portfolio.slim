@@ -1,7 +1,7 @@
 section.section.portfolio
   .wrapper
     = svg_tag 'logo', class: 'portfolio-logo', width: 54, height: 54
-    
+
     .portfolio-sections
       - t('portfolio.sections').each do |item, i|
         .portfolio-section class="logo-section--#{item}"
@@ -19,7 +19,7 @@ section.section.portfolio
           = link_to t('portfolio.modal.button'), t("portfolio.sections.#{item}.url"), class: 'button', target: '_blank'
 
     .overlay
-  = partial 'partials/sections/join', locals: { current: 'portfolio'} 
+  = partial 'partials/sections/join', locals: { current: 'portfolio'}
 
   javascript:
     var IMAGES = [
