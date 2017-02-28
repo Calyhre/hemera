@@ -129,19 +129,19 @@ en:
         job: Board Member & Mentor
         twitter: //twitter.com/bdroulin
         linkedin: //fr.linkedin.com/in/bdroulin
+      julien-parrou:
+        name: Julien Parrou
+        job: Board Member & Mentor
+        twitter: //twitter.com/JulienParrou
+        linkedin: //fr.linkedin.com/in/julien-parrou-348171b/fr
       david-ducourneau:
         name: David Ducourneau
         job: Board Member & Mentor
         twitter: //twitter.com/dducourneau
         linkedin: //fr.linkedin.com/in/dducourneau/fr
-      adrien-dulong:
-        name: Adrien Dulong
-        job: Managing Director & Mentor
-        twitter: //twitter.com/adulong
-        linkedin: //fr.linkedin.com/in/adrien-dulong-a92aa1b/fr
       claire-gendron:
         name: Claire Gendron
-        job: Businnes Development Manager
+        job: Businness Development Manager
         twitter: //twitter.com/ClaireGendron
         linkedin: //fr.linkedin.com/in/clairegendron
       gregory-lefort:
@@ -149,11 +149,11 @@ en:
         job: Board Member & Mentor
         twitter: //twitter.com/greglefort
         linkedin: //fr.linkedin.com/in/gregorylefort/fr
-      julien-parrou:
-        name: Julien Parrou
-        job: Board Member & Mentor
-        twitter: //twitter.com/JulienParrou
-        linkedin: //fr.linkedin.com/in/julien-parrou-348171b/fr
+      adrien-dulong:
+        name: Adrien Dulong
+        job: Managing Director & Mentor
+        twitter: //twitter.com/adulong
+        linkedin: //fr.linkedin.com/in/adrien-dulong-a92aa1b/fr
   partners:
     title: Partners
     subtitle: |

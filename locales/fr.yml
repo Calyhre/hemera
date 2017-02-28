@@ -140,6 +140,11 @@ fr:
         job: Administrateur et Mentor
         twitter: //twitter.com/bdroulin
         linkedin: //fr.linkedin.com/in/bdroulin
+      julien-parrou:
+        name: Julien Parrou
+        job: Administrateur et Mentor
+        twitter: //twitter.com/JulienParrou
+        linkedin: //fr.linkedin.com/in/julien-parrou-348171b/fr
       david-ducourneau:
         name: David Ducourneau
         job: Administrateur et Mentor
@@ -147,24 +152,19 @@ fr:
         linkedin: //fr.linkedin.com/in/dducourneau/fr
       claire-gendron:
         name: Claire Gendron
-        job: Businnes Development Manager
+        job: Businness Development Manager
         twitter: //twitter.com/ClaireGendron
         linkedin: //fr.linkedin.com/in/clairegendron
-      adrien-dulong:
-        name: Adrien Dulong
-        job: Directeur Général et Mentor
-        twitter: //twitter.com/adulong
-        linkedin: //fr.linkedin.com/in/adrien-dulong-a92aa1b/fr
       gregory-lefort:
         name: Gregory Lefort
         job: Administrateur et Mentor
         twitter: //twitter.com/greglefort
         linkedin: //fr.linkedin.com/in/gregorylefort/fr
-      julien-parrou:
-        name: Julien Parrou
-        job: Administrateur et Mentor
-        twitter: //twitter.com/JulienParrou
-        linkedin: //fr.linkedin.com/in/julien-parrou-348171b/fr
+      adrien-dulong:
+        name: Adrien Dulong
+        job: Directeur Général et Mentor
+        twitter: //twitter.com/adulong
+        linkedin: //fr.linkedin.com/in/adrien-dulong-a92aa1b/fr
   partners:
     title: Partenaires
     subtitle: |
