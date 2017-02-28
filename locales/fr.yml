@@ -145,6 +145,11 @@ fr:
         job: Administrateur et Mentor
         twitter: //twitter.com/dducourneau
         linkedin: //fr.linkedin.com/in/dducourneau/fr
+      claire-gendron:
+        name: Claire Gendron
+        job: Businnes Development Manager
+        twitter: //twitter.com/ClaireGendron
+        linkedin: //fr.linkedin.com/in/clairegendron
       adrien-dulong:
         name: Adrien Dulong
         job: Directeur Général et Mentor
@@ -160,11 +165,6 @@ fr:
         job: Administrateur et Mentor
         twitter: //twitter.com/JulienParrou
         linkedin: //fr.linkedin.com/in/julien-parrou-348171b/fr
-      brice-thebaud:
-        name: Brice Thebaud
-        job: Administrateur et Mentor
-        twitter:
-        linkedin: //fr.linkedin.com/in/brice-thebaud-963517/fr
   partners:
     title: Partenaires
     subtitle: |

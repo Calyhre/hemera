@@ -139,6 +139,11 @@ en:
         job: Managing Director & Mentor
         twitter: //twitter.com/adulong
         linkedin: //fr.linkedin.com/in/adrien-dulong-a92aa1b/fr
+      claire-gendron:
+        name: Claire Gendron
+        job: Businnes Development Manager
+        twitter: //twitter.com/ClaireGendron
+        linkedin: //fr.linkedin.com/in/clairegendron
       gregory-lefort:
         name: Gregory Lefort
         job: Board Member & Mentor
@@ -149,11 +154,6 @@ en:
         job: Board Member & Mentor
         twitter: //twitter.com/JulienParrou
         linkedin: //fr.linkedin.com/in/julien-parrou-348171b/fr
-      brice-thebaud:
-        name: Brice Thebaud
-        job: Board Member & Mentor
-        twitter:
-        linkedin: //fr.linkedin.com/in/brice-thebaud-963517/fr
   partners:
     title: Partners
     subtitle: |
