@@ -21,6 +21,9 @@ en:
   apply_now_url: //hemera.typeform.com/to/XGRrgN
 
   nav:
+    academy:
+      text: Academy
+      url: http://academie.hemera.camp/
     manifest:
       text: Manifest
       url: /
