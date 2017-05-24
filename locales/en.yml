@@ -21,6 +21,9 @@ en:
   apply_now_url: //hemera.typeform.com/to/XGRrgN
 
   nav:
+    coworking:
+      text: Coworking
+      url: http://coworking.hemera.camp/
     academy:
       text: Academy
       url: http://academie.hemera.camp/
